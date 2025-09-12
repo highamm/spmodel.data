@@ -1,0 +1,26 @@
+Package: spbook.data
+Type: Package
+Title: Data for spbook
+Version: 0.1.0
+Authors@R: c(
+    person(given = "Matt",
+           family = "Higham",
+           role = c("aut", "cre"),
+           email = "mhigham@stlawu.edu",
+           comment = c(ORCID = "0009-0006-4217-625X")),
+    person(given = "Michael",
+           family = "Dumelle",
+           role = c("aut"),
+           email = "Dumelle.Michael@epa.gov",
+           comment = c(ORCID = "0000-0002-3393-5529"))
+           )
+Description: Data used for the spbook book on foundations of spatial modeling.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports: 
+    sf,
+    tibble
+RoxygenNote: 7.3.2

@@ -5,7 +5,7 @@
 \alias{clement_hits}
 \title{Hitting data for Ernie Clement in the 2025 season through July.}
 \format{
-A \code{tibble} object with 129 rows and 114 columns:
+A \code{tibble} object with 240 rows and 114 columns:
 
 \itemize{
   \item id: an identification number.

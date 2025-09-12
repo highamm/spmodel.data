@@ -22,7 +22,7 @@
 #'
 #' @description Ernie Clement's hitting data for each hit that was put into the field of play (whether or not the result of the play was an out).
 #'
-#' @format A \code{tibble} object with 129 rows and 114 columns:
+#' @format A \code{tibble} object with 240 rows and 114 columns:
 #'
 #' \itemize{
 #'   \item id: an identification number.

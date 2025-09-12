@@ -18,7 +18,7 @@ A \code{tibble} object with 378 rows and 7 columns:
   }
 }
 \source{
-Data were obtained from the National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimates (EDGE) program at <https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db>.
+Data were obtained from the National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimates (EDGE) program at \url{https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db}.
 }
 \usage{
 in_high
@@ -27,6 +27,6 @@ in_high
 Student-to-faculty ratio data for high schools at point locations in Indiana given as X and Y coordinates for the 2022-2023 school year.
 }
 \references{
-National Center for Education Statistics. (accessed 2025). <https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db>
+National Center for Education Statistics. (accessed 2025). \url{https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db}.
 }
 \keyword{datasets}

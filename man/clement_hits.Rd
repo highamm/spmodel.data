@@ -3,7 +3,7 @@
 \docType{data}
 \name{clement_hits}
 \alias{clement_hits}
-\title{Hitting data for Ernie Clement in the 2025 season through July.}
+\title{Hitting data for Ernie Clement in the 2025 season through the end of June.}
 \format{
 A \code{tibble} object with 240 rows and 114 columns:
 
@@ -17,7 +17,7 @@ A \code{tibble} object with 240 rows and 114 columns:
   }
 }
 \source{
-Data were obtained for non-commercial use from the statcast search on the baseball savant website <https://baseballsavant.mlb.com/statcast_search>. Statcast is maintained by the MLB.
+Data were obtained for non-commercial use from the statcast search on the baseball savant website \url{https://baseballsavant.mlb.com/statcast_search}. Statcast is maintained by the MLB.
 }
 \usage{
 clement_hits

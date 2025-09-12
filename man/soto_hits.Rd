@@ -17,7 +17,7 @@ A \code{tibble} object with 129 rows and 114 columns:
   }
 }
 \source{
-Data were obtained for non-commercial use from the statcast search on the baseball savant website <https://baseballsavant.mlb.com/statcast_search>. Statcast is maintained by the MLB.
+Data were obtained for non-commercial use from the statcast search on the baseball savant website \url{https://baseballsavant.mlb.com/statcast_search}. Statcast is maintained by the MLB.
 }
 \usage{
 soto_hits

@@ -15,10 +15,12 @@ A \code{tibble} object with 522 rows and 7 columns:
   \item locale: A factor with levels City, Suburb, Town, and Rural, representing the environment that the school is in.
   \item X: The X coordinate of the school, in an NAD83 / Conus Albers Coordinate-Reference-System.
   \item Y: The Y coordinate of the school, in an NAD83 / Conus Albers Coordinate-Reference-System.
+  \item longitude: the longitudinal coordinate of the school.
+  \item latitude: the latitudinal coordinate of the school.
   }
 }
 \source{
-Data were obtained from the National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimates (EDGE) program at <https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db>.
+Data were obtained from the National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimates (EDGE) program at \url{https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db}.
 }
 \usage{
 oh_high
@@ -27,6 +29,6 @@ oh_high
 Student-to-faculty ratio data for high schools at point locations in Ohio given as X and Y coordinates for the 2022-2023 school year.
 }
 \references{
-National Center for Education Statistics. (accessed 2025). <https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db>
+National Center for Education Statistics. (accessed 2025). \url{https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db}.
 }
 \keyword{datasets}

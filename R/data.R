@@ -13,12 +13,12 @@
 #'   \item pitch_type: A factor representing the type of pitch with levels CH (change-up), CU (curveball), FC (fastball cutter), FF (four-seam fastball), FS (splitter), SI (sinker), SL (slider), and ST (sweeping slider).
 #'   }
 
-#' @source Data were obtained for non-commercial use from the statcast search on the baseball savant website <https://baseballsavant.mlb.com/statcast_search>. Statcast is maintained by the MLB.
+#' @source Data were obtained for non-commercial use from the statcast search on the baseball savant website \url{https://baseballsavant.mlb.com/statcast_search}. Statcast is maintained by the MLB.
 #' @references
 #' MLB Advanced Media. (2025). Baseball Savant: Statcast search [Juan Soto]. Baseball Savant.
 "soto_hits"
 
-#' Hitting data for Ernie Clement in the 2025 season through July.
+#' Hitting data for Ernie Clement in the 2025 season through the end of June.
 #'
 #' @description Ernie Clement's hitting data for each hit that was put into the field of play (whether or not the result of the play was an out).
 #'
@@ -33,7 +33,7 @@
 #'   \item pitch_type: A factor representing the type of pitch with levels CH (change-up), CU (curveball), FC (fastball cutter), FF (four-seam fastball), FS (splitter), SI (sinker), SL (slider), and ST (sweeping slider).
 #'   }
 
-#' @source Data were obtained for non-commercial use from the statcast search on the baseball savant website <https://baseballsavant.mlb.com/statcast_search>. Statcast is maintained by the MLB.
+#' @source Data were obtained for non-commercial use from the statcast search on the baseball savant website \url{https://baseballsavant.mlb.com/statcast_search}. Statcast is maintained by the MLB.
 #' @references
 #' MLB Advanced Media. (2025). Baseball Savant: Statcast search [Ernie Clement]. Baseball Savant.
 "clement_hits"
@@ -52,11 +52,13 @@
 #'   \item locale: A factor with levels City, Suburb, Town, and Rural, representing the environment that the school is in.
 #'   \item X: The X coordinate of the school, in an NAD83 / Conus Albers Coordinate-Reference-System.
 #'   \item Y: The Y coordinate of the school, in an NAD83 / Conus Albers Coordinate-Reference-System.
+#'   \item longitude: the longitudinal coordinate of the school.
+#'   \item latitude: the latitudinal coordinate of the school.
 #'   }
 
-#' @source Data were obtained from the National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimates (EDGE) program at <https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db>.
+#' @source Data were obtained from the National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimates (EDGE) program at \url{https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db}.
 #' @references
-#' National Center for Education Statistics. (accessed 2025). <https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db>
+#' National Center for Education Statistics. (accessed 2025). \url{https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db}.
 "oh_high"
 
 
@@ -75,9 +77,9 @@
 #'   \item X: The X coordinate of the school, in an NAD83 / Conus Albers Coordinate-Reference-System.
 #'   \item Y: The Y coordinate of the school, in an NAD83 / Conus Albers Coordinate-Reference-System.
 #'   }
-#' @source Data were obtained from the National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimates (EDGE) program at <https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db>.
+#' @source Data were obtained from the National Center for Education Statistics' (NCES) Education Demographic and Geographic Estimates (EDGE) program at \url{https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db}.
 #' @references
-#' National Center for Education Statistics. (accessed 2025). <https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db>
+#' National Center for Education Statistics. (accessed 2025). \url{https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db}.
 "in_high"
 
 
@@ -112,3 +114,21 @@
 #' @references
 #' Dubin, Robin A. (1992). Spatial autocorrelation and neighborhood quality. Regional Science and Urban Economics 22(3), 433-452.
 "baltimore_housing"
+
+#' Ozone pollution in California, United States.
+#'
+#' @description Data collected through air pollution monitors on atmospheric ozone throughout the state of California on April 1, 2025.
+#'
+#' @format A \code{tibble} object with 145 rows and 6 columns:
+#'
+#' \itemize{
+#'   \item ozone: the amount of ozone detected, in parts per billion.
+#'   \item source: a factor for the measurement source, either AirNow or AQS.
+#'   \item lon: the longitudinal coordinate of the measurement.
+#'   \item lat: the latitudinal coordinate of the measurement.
+#'   \item x: the x coordinate of the measurement (in NAD83 / Conus Albers CRS)
+#'   \item y: the y coordinate of the measurement (in NAD83 / Conus Albers CRS)
+#'   }
+
+#' @source Data were collected from the United States Environmental Protection Agency at \url{https://www.epa.gov/outdoor-air-quality-data/download-daily-data}.
+"ozone"

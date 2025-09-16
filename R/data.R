@@ -87,12 +87,10 @@
 #'
 #' @description Data collected is on home prices and home characteristics for a particular area of Baltimore in the late 1970's.
 #'
-#' @format A \code{tibble} object with 211 rows and 17 columns:
+#' @format An \code{sf} object with an unknown projection and 211 rows and 16 columns:
 #'
 #' \itemize{
 #'   \item STATION: an identification number.
-#'   \item X: the x-coordinate of the home's location (projection unknown).
-#'   \item Y: the y-coordinate of the home's location (projection unknown).
 #'   \item PRICE: the price of the home (thousands of dollars).
 #'   \item NROOM: the number of rooms.
 #'   \item DWELL: unknown.
@@ -107,6 +105,7 @@
 #'   \item CITCOU: an indicator for whether the home is in the inner study area or the outer study area.
 #'   \item LOTSZ: the lot size of the home (in hundreds of square feet).
 #'   \item SQFT: the size of the home interior (in hundreds of square feet).
+#'   \item geometry: point-referenced geometry with an unknown projection.
 #'
 #'   }
 

@@ -152,7 +152,42 @@
 #'   \item ruralurban_cc: a code for how "urban" the county is, defined as: \code{1} if the county has a metro area of 1 million or more people, \code{2} if 250,000 to 1 million, \code{3} if metro area has fewer than 250,000, \code{4} if county has 20,000 or more and is adjacent to a metro area, \code{5} if county has 20,000 or more and is not adjacent to a metro area, \code{6} if county has an urban population of 2500 to 19999 and is adjacent to a metro area, \code{7} if county has an urban population of 2500 to 19999 and is not adjacent to a metro area, \code{8} if county is completely rural or has less than 2500 of an urban population and is adjacent to a metro area, and \code{9} if county is rural or has less than 2500 of an urban population and is not adjacent to a metro area.
 #'   \item white_pct: the percentage of the population that is white (in percentage points).
 #'   \item rural_pct: the percentage of the population that lives in a rural area (in percentage points).
+#'   \item geometry: the point coordinates (centroids) of the county.
 #'   }
 
 #' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
 "va_turnout"
+
+
+#' Home price data in Northampton, Massachussetts, United States.
+#'
+#' @description Characteristics of homes near a network of a rail trail network in an area of Northampton, Massachussetts in 2014.
+#'
+#' @format An \code{sf} object with an \code{NAD83 / Conus Albers} point projection with 104 rows and 19 columns:
+#'
+#' \itemize{
+#'   \item HouseNum: an identification variable for the house number.
+#'   \item Acre: the number of acres of the lot.
+#'   \item AcreGroup: a factor with 2 levels: > 1/4 acre and <= 1/4 acre.
+#'   \item BedGroup: a factor with 3 levels: 1-2 beds, 3 beds, and 4+ beds.
+#'   \item Bedrooms: the number of bedrooms the home has.
+#'   \item BikeScore: a metric for bike friendliness (0-100 score).
+#'   \item Distance: the distance to the nearest point of the rail trail network (in miles).
+#'   \item DistGroup: a factor with two levels: Closer, if the home is less than half a mile from the rail trail network and Farther, if not.
+#'   \item GarageSpaces: the number of spaces a garage has.
+#'   \item GarageGroup: a factor with two levels: no if the home does not have a garage and yes if the home does.
+#'   \item NumFullBaths: the number of full baths.
+#'   \item NumHalfBaths: the number of half baths.
+#'   \item NumRooms: the number of rooms.
+#'   \item Price2014: the price of the home in 2014, in thousands of dollars.
+#'   \item SFGroup: a factor with two levels: <= 1500 sf, if the home is less than or equal to 1500 square feet and > 1500 sf, if not.
+#'   \item SquareFeet: the square footage of the home, in thousands of square feet.
+#'   \item WalkScore: the walk friendliness (on a 0-100 scale).
+#'   \item Zip, the zip code of the home (1060 for Northampton and 1062 for Florence).
+#'   \item geometry: point-level geometry.
+#'   }
+
+#' @source Data were obtained from the \code{Stat2Data} \code{R} package. The original data set is from the July 2015 issue of the Journal of Statistics Educations Data Sets and Stories: "Rail Trails and Property Values: Is There an Association?", Ella Hartenian, Smith College and Nicholas J. Horton, Amherst College.
+#' @references
+#' "Rail Trails and Property Values: Is There an Association?", Ella Hartenian, Smith College and Nicholas J. Horton, Amherst College.
+"rails_trails"

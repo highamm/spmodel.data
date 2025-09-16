@@ -19,6 +19,7 @@ An \code{sf} object with an \code{NAD83 / Conus Albers} point projection with 13
   \item ruralurban_cc: a code for how "urban" the county is, defined as: \code{1} if the county has a metro area of 1 million or more people, \code{2} if 250,000 to 1 million, \code{3} if metro area has fewer than 250,000, \code{4} if county has 20,000 or more and is adjacent to a metro area, \code{5} if county has 20,000 or more and is not adjacent to a metro area, \code{6} if county has an urban population of 2500 to 19999 and is adjacent to a metro area, \code{7} if county has an urban population of 2500 to 19999 and is not adjacent to a metro area, \code{8} if county is completely rural or has less than 2500 of an urban population and is adjacent to a metro area, and \code{9} if county is rural or has less than 2500 of an urban population and is not adjacent to a metro area.
   \item white_pct: the percentage of the population that is white (in percentage points).
   \item rural_pct: the percentage of the population that lives in a rural area (in percentage points).
+  \item geometry: the point coordinates (centroids) of the county.
   }
 }
 \source{

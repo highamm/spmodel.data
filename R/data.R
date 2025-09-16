@@ -187,7 +187,30 @@
 #'   \item geometry: point-level geometry.
 #'   }
 
-#' @source Data were obtained from the \code{Stat2Data} \code{R} package. The original data set is from the July 2015 issue of the Journal of Statistics Educations Data Sets and Stories: "Rail Trails and Property Values: Is There an Association?", Ella Hartenian, Smith College and Nicholas J. Horton, Amherst College.
+#' @source Data were modified from the \code{Stat2Data} \code{R} package. The original data set is from the July 2015 issue of the Journal of Statistics Educations Data Sets and Stories: "Rail Trails and Property Values: Is There an Association?", Ella Hartenian, Smith College and Nicholas J. Horton, Amherst College.
 #' @references
 #' "Rail Trails and Property Values: Is There an Association?", Ella Hartenian, Smith College and Nicholas J. Horton, Amherst College.
 "rails_trails"
+
+#' Landslide data from Southern Ecuador.
+#'
+#' @description Data on landslides in a region of Ecuador.
+#'
+#' @format An \code{sf} object with an \code{WGS 84 / UTM zone 17S} point projection with 350 rows and 8 columns:
+#'
+#' \itemize{
+#'   \item landslide_ind: an indicator variable that is a 0 if a landslide did not take place at the location and a 1 if a landslide did take place.
+#'   \item landslide_fct: a factor with two levels: no if a landslide did not take place and yes if a landslide did take place.
+#'   \item slope: the angle of the slope, in degrees.
+#'   \item cplan: plan curvature. This is a measure of how the terrain bends across a slope, in radians per meter, and is a commonly used metric for water flow.
+#'   \item cprof: profile curvature, in radians per meter, a measure of flow acceleration.
+#'   \item elev: elevation, in meters above sea level.
+#'   \item log10_carea: the base-10 logarithm of the catchment area, a measure of the amount of water flowing toward a location.
+#'   \item geometry: point-level geometry of the locations.
+#'   }
+
+#' @source Data were modified from the \code{spDataLarge} \code{R} package and the \code{RSAGA} \code{R} package. The data are used in the "Statistical learning for geographic data" chapter of the Geocomputation with R book (\link{https://r.geocompx.org/spatial-cv.html}. The data appear in the published works listed in the references below.
+#' @references
+#' Muenchow, J., Brenning, A., Richter, R. (2012): Geomorphic process rates of landslides along a humidity gradient in the tropical Andes, Geomorphology 139-140, 271-284. DOI: 10.1016/j.geomorph.2011.10.029.
+#' Stoyan, R. (2000): Aktivitaet, Ursachen und Klassifikation der Rutschungen in San Francisco/Suedecuador. Unpublished diploma thesis, University of Erlangen-Nuremberg, Germany.
+"landslides"

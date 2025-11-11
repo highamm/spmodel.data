@@ -5,7 +5,7 @@
 \alias{va_turnout}
 \title{Voter Turnout in 2012 in Virginia, United States.}
 \format{
-An \code{sf} object with an \code{NAD83 / Conus Albers} point projection with 134 rows and 12 columns:
+An \code{sf} object with an \code{NAD83 / Conus Albers} point projection with 133 rows and 12 columns:
 
 \itemize{
   \item county: the name of the Virginia county.
@@ -19,7 +19,7 @@ An \code{sf} object with an \code{NAD83 / Conus Albers} point projection with 13
   \item ruralurban_cc: a code for how "urban" the county is, defined as: \code{1} if the county has a metro area of 1 million or more people, \code{2} if 250,000 to 1 million, \code{3} if metro area has fewer than 250,000, \code{4} if county has 20,000 or more and is adjacent to a metro area, \code{5} if county has 20,000 or more and is not adjacent to a metro area, \code{6} if county has an urban population of 2500 to 19999 and is adjacent to a metro area, \code{7} if county has an urban population of 2500 to 19999 and is not adjacent to a metro area, \code{8} if county is completely rural or has less than 2500 of an urban population and is adjacent to a metro area, and \code{9} if county is rural or has less than 2500 of an urban population and is not adjacent to a metro area.
   \item white_pct: the percentage of the population that is white (in percentage points).
   \item rural_pct: the percentage of the population that lives in a rural area (in percentage points).
-  \item geometry: the point coordinates (centroids) of the county.
+  \item geometry: the point coordinates (centroids) of the county or city district.
   }
 }
 \source{
@@ -29,6 +29,6 @@ Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blo
 va_turnout
 }
 \description{
-County-level voter turnout data for the state of Virginia in the 2012 presidential election at each of Virginia's 134 counties in 2012. In this data set, a county's voter turnout is defined as the number of people who voted for a presidential candidate in that election divided by the number of citizens in that county who are at least the minimum voting age (18 years or older) multiplied by 100 (to convert to percent).
+County-level voter turnout data for the state of Virginia in the 2012 presidential election at each of Virginia's 133 counties and independent cities in 2012. In this data set, a county's voter turnout is defined as the number of people who voted for a presidential candidate in that election divided by the number of citizens in that county who are at least the minimum voting age (18 years or older) multiplied by 100 (to convert to percent).
 }
 \keyword{datasets}

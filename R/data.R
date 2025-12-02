@@ -286,7 +286,7 @@
 #'
 #' @description County-level voter turnout data for the state of Pennsylvania in the 2012 presidential election at each of Pennsylvania's 67 counties in 2012. In this data set, a county's voter turnout is defined as the number of people who voted for a presidential candidate in that election divided by the number of citizens in that county who are at least the minimum voting age (18 years or older) multiplied by 100 (to convert to percent). This is an identical data set to \code{pa_turnout} except that the \code{geometry} column is polygonal instead of point-level.
 #'
-#' @format An \code{sf} object with an \code{NAD83 / Conus Albers} point projection with 67 rows and 12 columns:
+#' @format An \code{sf} object with an \code{NAD83 / Conus Albers} polygonal projection with 67 rows and 12 columns:
 #'
 #' \itemize{
 #'   \item county: the name of the Pennsylvania county.
@@ -304,3 +304,30 @@
 #'   }
 #' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
 "pa_turnout_poly"
+
+#' Guerry Social Science Data in France
+#'
+#' @description Department-level social science data in France in the 1830s, collected by Andre-Michel Guerry. Each row corresponds to a particular department (region) in the country of France.
+#'
+#' @format An \code{sf} object with an \code{NTF (Paris) / Lambert zone II} polygonal projection with 85 rows and 14 columns:
+#'
+#' \itemize{
+#'   \item region: the region of the department, a factor with 5 levels (C for Central, E for East, N for North, S for South, and W for West).
+#'   \item department: the name of the department.
+#'   \item crime_person: population per crime against persons (for example, a crime per person value of 20000 indicates that there was one crime against a person for every 20000 people in the department.
+#'   \item crime_property: population per crime against property.
+#'   \item literacy: the percentage of military conscripts who can read and write.
+#'   \item donations: the number of donations to the poor.
+#'   \item illegit_birth: population per illegitimate birth.
+#'   \item suicides: population per suicide.
+#'   \item size_city: the size of the largest city within the department. This variable is a factor with three levels: 1 for the 10 smallest sizes, 2 for the middle 65 department sizes, and 3 for the 10 largest sizes.
+#'   \item sex_workers: the number of sex workers registered in Paris from 1816 to 1834, according to the department of each sex worker's birth.
+#'   \item distance_to_paris: the distance of the department centroid to Paris, in kilometers.
+#'   \item area: the area of the department, in thousands of kilometers squared.
+#'   \item population_1831: the population of the department in the year 1831.
+#'   \item geometry: information giving the polygonal shape of the county or city district.
+#'   }
+#' @source Data were modified from the \code{geodaData} \code{R} package. The original source of the data is the \code{Guerry} \code{R} package by Michael Friendly and Stephane Dray.
+#' @references
+#' Guerry, A.-M. (1833). Essai sur la statistique morale de la France Paris: Crochard. English translation: Hugh P. Whitt and Victor W. Reinking, Lewiston, N.Y. : Edwin Mellen Press, 2002.
+"guerry_sf"

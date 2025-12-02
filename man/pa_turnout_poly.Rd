@@ -5,7 +5,7 @@
 \alias{pa_turnout_poly}
 \title{Voter Turnout in 2012 in Pennsylvania, United States.}
 \format{
-An \code{sf} object with an \code{NAD83 / Conus Albers} point projection with 67 rows and 12 columns:
+An \code{sf} object with an \code{NAD83 / Conus Albers} polygonal projection with 67 rows and 12 columns:
 
 \itemize{
   \item county: the name of the Pennsylvania county.

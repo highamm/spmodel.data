@@ -16,32 +16,14 @@ An \code{sf} object with \code{POLYGON} geometry on a \code{WGS 84 / UTM zone 17
   \item population: the population size in the county for that particular year.
   \item geometry: information giving the polygonal shapes of the counties in the state of Ohio.
   }
-
-An \code{sf} object with \code{POINT} geometry on a \code{WGS 84 / UTM zone 17N} Projected coordinate reference system. Each point corresponds to a county centroid. The data has 528 rows, each corresponding to a county-gender-year combination and 7 columns:
-
-\itemize{
-  \item fips: the fips code of the county.
-  \item county: the name of the county.
-  \item gender: a factor with two levels: "F" for female and "M" for male.
-  \item year: a factor with three levels: "68" for 1968, "78" for 1978, and "88" for 1988.
-  \item cases: the number of lung cancer cases reported for that particular county in that particular year for that particular gender.
-  \item population: the population size in the county for that particular year.
-  \item geometry: information giving the centroids of the counties in the state of Ohio.
-  }
 }
 \source{
-Data were modified from the \code{geodaData} \code{R} package.
-
-Data were modified from the \code{geodaData} \code{R} package.
+Data were modified from the \code{ohio_lung} data set in the \code{geodaData} \code{R} package.
 }
 \usage{
 ohio_cancer
-
-ohio_cancer
 }
 \description{
-Data on lung cancer cases in counties in the state of Ohio in the 1960's through the 1980's.
-
 Data on lung cancer cases in counties in the state of Ohio in the 1960's through the 1980's.
 }
 \keyword{datasets}

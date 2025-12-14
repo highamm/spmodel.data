@@ -34,7 +34,7 @@ Data were modified from the \code{spData} \code{R} package, prepared by Luc Anse
 baltimore_housing
 }
 \description{
-Data collected is on home prices and home characteristics for a particular area of Baltimore in the late 1970's.
+Data collected is on home prices and home characteristics for a particular area of Baltimore in the late 1970's. This is an identical data set to \code{baltimore_housing_df} except this data is an \code{sf} object.
 }
 \references{
 Dubin, Robin A. (1992). Spatial autocorrelation and neighborhood quality. Regional Science and Urban Economics 22(3), 433-452.

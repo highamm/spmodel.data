@@ -85,7 +85,7 @@
 
 #' Sale prices for homes in Baltimore, Maryland in 1978.
 #'
-#' @description Data collected is on home prices and home characteristics for a particular area of Baltimore in the late 1970's.
+#' @description Data collected is on home prices and home characteristics for a particular area of Baltimore in the late 1970's. This is an identical data set to \code{baltimore_housing_df} except this data is an \code{sf} object.
 #'
 #' @format An \code{sf} object with an unknown projection and 211 rows and 16 columns:
 #'
@@ -113,6 +113,38 @@
 #' @references
 #' Dubin, Robin A. (1992). Spatial autocorrelation and neighborhood quality. Regional Science and Urban Economics 22(3), 433-452.
 "baltimore_housing"
+
+#' Sale prices for homes in Baltimore, Maryland in 1978.
+#'
+#' @description Data collected is on home prices and home characteristics for a particular area of Baltimore in the late 1970's. This is an identical data set to \code{baltimore_housing} except this data set contains spatial coordinates as explicit \code{X} and \code{Y} columns.
+#'
+#' @format A \code{tibble} object with an unknown projection and 211 rows and 17 columns:
+#'
+#' \itemize{
+#'   \item STATION: an identification number.
+#'   \item PRICE: the price of the home (thousands of dollars).
+#'   \item NROOM: the number of rooms.
+#'   \item DWELL: unknown.
+#'   \item NBATH: the number of bathrooms.
+#'   \item PATIO: whether or not the home has a patio (1 = patio, 0 = no patio).
+#'   \item FIREPL: whether or not the home has a fireplace (1 = fireplace, 0 = no fireplace).
+#'   \item AC: whether or not the home has central air conditioning (1 = central AC, 0 = no central AC).
+#'   \item BMENT: unknown.
+#'   \item NSTOR: the number of storage spaces the home has.
+#'   \item GAR: the number of cars that can fit in the garage.
+#'   \item AGE: the age of the home (in years).
+#'   \item CITCOU: an indicator for whether the home is in the inner study area or the outer study area.
+#'   \item LOTSZ: the lot size of the home (in hundreds of square feet).
+#'   \item SQFT: the size of the home interior (in hundreds of square feet).
+#'   \item X: x-coordinate for the house with an unknown projection.
+#'   \item Y: y-coordinate for the house with an unknown projection.
+#'
+#'   }
+
+#' @source Data were modified from the \code{spData} \code{R} package, prepared by Luc Anselin. Originaldata were made available by Robin Durin, Case Western Research University.
+#' @references
+#' Dubin, Robin A. (1992). Spatial autocorrelation and neighborhood quality. Regional Science and Urban Economics 22(3), 433-452.
+"baltimore_housing_df"
 
 #' Ozone pollution in California, United States.
 #'
@@ -403,7 +435,7 @@
 
 #' Oak Trees in Portland Parks
 #'
-#' @description Oak tree characteristics measured on trees throughout the city parks of Portland in 2017.
+#' @description Oak tree characteristics measured on trees throughout the city parks of Portland in 2017. This data set is identical to \code{pdx_trees_df} except that this is an \code{sf} object.
 #'
 #' @format An \code{sf} object with \code{POINT} geometry on a \code{NAD83 / Conus Albers} Projected coordinate reference system. Each point corresponds to an oak tree. The data has 680 rows, each corresponding to an oak tree and 12 columns:
 #'
@@ -419,10 +451,37 @@
 #'   \item Collected_By: who the measurement was taken by (either \code{Volunteer} or \code{Staff}).
 #'   \item Park: the name of the Portland park.
 #'   \item Scientific_Name: the scientific name of the tree.
-#'   \item geometry: information giving the point locations of the trees.
+#'   \item geometry: information giving the point locations of the trees (distances are in meters).
 #'   }
 
 #' @source Data were modified from the \code{pdxTrees} \code{R} package by Kelly McConville at \url{https://github.com/mcconvil/pdxTrees/tree/master}.
 #' @references
 #' The data were originally collected by the Portland Parks and Recreation's Urban Forestry Tree Inventory Project (\url{https://www.portland.gov/trees/get-involved/tree-inventory}).
 "pdx_oaks"
+
+#' Oak Trees in Portland Parks
+#'
+#' @description Oak tree characteristics measured on trees throughout the city parks of Portland in 2017. This data set is identical to \code{pdx_trees} except that this is data set is a \code{tibble} with projected coordinates contained in explicit \code{X} and \code{Y} columns.
+#'
+#' @format A \code{tibble} object with coordinates \code{X} and \code{Y} on a  \code{NAD83 / Conus Albers} Projected coordinate reference system. Each point corresponds to an oak tree. The data has 680 rows, each corresponding to an oak tree and 13 columns:
+#'
+#' \itemize{
+#'   \item X: the x-coordinate of the tree (distances are in meters).
+#'   \item Y: the y-coordinate of the tree (distances are in meters).
+#'   \item DBH: the diameter at breast height, in inches.
+#'   \item Tree_Height: the height of the tree, in feet.
+#'   \item Carbon_Storage_lb: the amount of carbon the tree stores, in pounds.
+#'   \item Pollution_Removal_oz: the amount of pollution the tree removes, in ounces.
+#'   \item Inventory_Date: the date that the tree measurements were taken.
+#'   \item Species: the species of the tree.
+#'   \item Common_Name: the common name of the tree.
+#'   \item Condition: the condition of the tree as a factor with three levels (\code{Fair}, \code{Good}, and \code{Poor}).
+#'   \item Collected_By: who the measurement was taken by (either \code{Volunteer} or \code{Staff}).
+#'   \item Park: the name of the Portland park.
+#'   \item Scientific_Name: the scientific name of the tree.
+#'   }
+
+#' @source Data were modified from the \code{pdxTrees} \code{R} package by Kelly McConville at \url{https://github.com/mcconvil/pdxTrees/tree/master}.
+#' @references
+#' The data were originally collected by the Portland Parks and Recreation's Urban Forestry Tree Inventory Project (\url{https://www.portland.gov/trees/get-involved/tree-inventory}).
+"pdx_oaks_df"

@@ -19,7 +19,7 @@ An \code{sf} object with \code{POINT} geometry on a \code{NAD83 / Conus Albers} 
   \item Collected_By: who the measurement was taken by (either \code{Volunteer} or \code{Staff}).
   \item Park: the name of the Portland park.
   \item Scientific_Name: the scientific name of the tree.
-  \item geometry: information giving the point locations of the trees.
+  \item geometry: information giving the point locations of the trees (distances are in meters).
   }
 }
 \source{
@@ -29,7 +29,7 @@ Data were modified from the \code{pdxTrees} \code{R} package by Kelly McConville
 pdx_oaks
 }
 \description{
-Oak tree characteristics measured on trees throughout the city parks of Portland in 2017.
+Oak tree characteristics measured on trees throughout the city parks of Portland in 2017. This data set is identical to \code{pdx_trees_df} except that this is an \code{sf} object.
 }
 \references{
 The data were originally collected by the Portland Parks and Recreation's Urban Forestry Tree Inventory Project (\url{https://www.portland.gov/trees/get-involved/tree-inventory}).

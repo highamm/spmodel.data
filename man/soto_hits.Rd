@@ -5,7 +5,7 @@
 \alias{soto_hits}
 \title{Hitting data for Juan Soto in the 2025 season through May.}
 \format{
-A \code{tibble} object with 129 rows and 114 columns:
+A \code{tibble} object with 128 rows and 114 columns:
 
 \itemize{
   \item id: an identification number.

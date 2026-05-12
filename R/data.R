@@ -509,3 +509,39 @@
 #' @references
 #' Bergtold, J. S., Yeager, E. A., & Griffin, T. W. (2019). Spatial dynamics in the classroom: Does seating choice matter?. Plos one, 14(12), e0226953.
 "exam_scores"
+
+#' A simulated data set designed to show how the mean structure and
+#' error structure of a model are intertwined.
+#'
+#' @description This simulated data was was generated such that
+#' both the predictor and the response are very spatially patterned.
+#'
+#' @format A \code{tibble} object with 400 rows and 4 columns:
+#'
+#' \itemize{
+#'   \item x: an x-coordinate giving the x position of the data point.
+#'   \item y: a y-coordinate giving the y position of the data point.
+#'   \item x1: a spatially patterned predictor variable for the response.
+#'   \item response: the response variable of interest.
+#'   }
+
+"sim_mean_error"
+
+#' A second simulated data set designed to show how the mean structure and
+#' error structure of a model are intertwined.
+#'
+#' @description This simulated data was was generated such that
+#' the response is very spatially patterned within
+#' each level of the predictor variable (so, after accounting for the
+#' effects of the predictor).
+#'
+#' @format A \code{tibble} object with 400 rows and 4 columns:
+#'
+#' \itemize{
+#'   \item x: an x-coordinate giving the x position of the data point.
+#'   \item y: a y-coordinate giving the y position of the data point.
+#'   \item response: the response variable of interest.
+#'   \item group: a categorical predictor variable with three levels: \code{A}, \code{B}, and \code{C}.
+#'   }
+
+"sim_mean_error_2"

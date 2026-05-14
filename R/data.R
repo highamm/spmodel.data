@@ -524,7 +524,6 @@
 #'   \item x1: a spatially patterned predictor variable for the response.
 #'   \item response: the response variable of interest.
 #'   }
-
 "sim_mean_error"
 
 #' A second simulated data set designed to show how the mean structure and
@@ -543,5 +542,25 @@
 #'   \item response: the response variable of interest.
 #'   \item group: a categorical predictor variable with three levels: \code{A}, \code{B}, and \code{C}.
 #'   }
-
 "sim_mean_error_2"
+
+#' A simulated data set designed to show why we cannot use raw residuals
+#' to evaluate the constant variance piece of the stationarity assumption.
+#'
+#' @description This simulated data was was generated such that
+#' all model assumptions hold. However, when using raw residuals to
+#' evaluate the constant variance piece of stationarity, the residual
+#' plot gives the appearance of non-constant variance. Spatial dependence
+#' has not been properly accounted for in these raw residuals.
+#'
+#'
+#' @format A \code{tibble} object with 200 rows and 4 columns:
+#'
+#' \itemize{
+#'   \item x: an x-coordinate giving the x position of the data point.
+#'   \item y: a y-coordinate giving the y position of the data point.
+#'   \item x1: a quantitative predictor for the response variable.
+#'   \item response: the response variable of interest.
+
+#'   }
+"sim_stationarity"

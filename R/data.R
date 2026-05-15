@@ -567,7 +567,7 @@
 
 #' A simulated data set designed to show why we cannot use a histogram
 #' of the response variable or a histogram of the raw residuals
-#' to evaluate the normality assumption in a spatial model..
+#' to evaluate the normality assumption in a spatial model.
 #'
 #' @description This simulated data was was generated such that
 #' all model assumptions hold. However, when using raw residuals to
@@ -585,3 +585,24 @@
 
 #'   }
 "sim_normality"
+
+#' A simulated data set designed to show that the linearity assumption
+#' can hold in a spatial model even if a scatterplot between the
+#' response variable and a predictor variable appears to be curved.
+#'
+#' @description This simulated data was was generated such that
+#' all model assumptions hold. It is possible that the relationship is
+#' linear after accounting for the effects of the other model predictors
+#' and after accounting for the spatial effects.
+#'
+#'
+#' @format A \code{tibble} object with 200 rows and 3 columns:
+#'
+#' \itemize{
+#'   \item x: an x-coordinate giving the x position of the data point.
+#'   \item y: a y-coordinate giving the y position of the data point.
+#'   \item x1: a quantitative predictor variable.
+#'   \item x2: a quantitative predictor variable.
+#'   \item response: the response variable of interest.
+#'   }
+"sim_linearity"

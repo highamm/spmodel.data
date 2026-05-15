@@ -625,3 +625,21 @@
 #'   \item response: the response variable of interest.
 #'   }
 "sim_leverage"
+
+#' A simulated data set designed to show how spatial outliers can be
+#' different than outliers in a model with independent random
+#' errors.
+#'
+#' @description This simulated data was was generated such that
+#' all model assumptions hold. However, one of the observations has
+#' an extreme response value relative to the response value at the
+#' locations in direct proximity to it.
+#'
+#' @format A \code{tibble} object with 200 rows and 3 columns:
+#'
+#' \itemize{
+#'   \item x: an x-coordinate giving the x position of the data point.
+#'   \item y: a y-coordinate giving the y position of the data point.
+#'   \item response: the response variable of interest.
+#'   }
+"sim_outlier"

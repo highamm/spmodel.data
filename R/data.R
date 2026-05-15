@@ -564,3 +564,24 @@
 
 #'   }
 "sim_stationarity"
+
+#' A simulated data set designed to show why we cannot use a histogram
+#' of the response variable or a histogram of the raw residuals
+#' to evaluate the normality assumption in a spatial model..
+#'
+#' @description This simulated data was was generated such that
+#' all model assumptions hold. However, when using raw residuals to
+#' evaluate the normality assumption, the histogram appears to be
+#' extremely skewed. Spatial dependence
+#' has not been properly accounted for in these raw residuals.
+#'
+#'
+#' @format A \code{tibble} object with 200 rows and 3 columns:
+#'
+#' \itemize{
+#'   \item x: an x-coordinate giving the x position of the data point.
+#'   \item y: a y-coordinate giving the y position of the data point.
+#'   \item response: the response variable of interest.
+
+#'   }
+"sim_normality"

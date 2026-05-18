@@ -95,8 +95,8 @@
 #'   \item NROOM: the number of rooms.
 #'   \item DWELL: unknown.
 #'   \item NBATH: the number of bathrooms.
-#'   \item PATIO: whether or not the home has a patio (1 = patio, 0 = no patio).
-#'   \item FIREPL: whether or not the home has a fireplace (1 = fireplace, 0 = no fireplace).
+#'   \item PATIO: whether or not the home has a patio.
+#'   \item FIREPL: whether or not the home has a fireplace.
 #'   \item AC: whether or not the home has central air conditioning (1 = central AC, 0 = no central AC).
 #'   \item BMENT: unknown.
 #'   \item NSTOR: the number of storage spaces the home has.
@@ -126,8 +126,8 @@
 #'   \item NROOM: the number of rooms.
 #'   \item DWELL: unknown.
 #'   \item NBATH: the number of bathrooms.
-#'   \item PATIO: whether or not the home has a patio (1 = patio, 0 = no patio).
-#'   \item FIREPL: whether or not the home has a fireplace (1 = fireplace, 0 = no fireplace).
+#'   \item PATIO: whether or not the home has a patio.
+#'   \item FIREPL: whether or not the home has a fireplace.
 #'   \item AC: whether or not the home has central air conditioning (1 = central AC, 0 = no central AC).
 #'   \item BMENT: unknown.
 #'   \item NSTOR: the number of storage spaces the home has.

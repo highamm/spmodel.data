@@ -192,7 +192,7 @@
 
 #' Home price data in Northampton, Massachussetts, United States.
 #'
-#' @description Characteristics of homes near a network of a rail trail network in an area of Northampton, Massachussetts in 2014.
+#' @description Characteristics of homes near a rail trail network in an area of Northampton, Massachussetts in 2014.
 #'
 #' @format An \code{sf} object with an \code{NAD83 / Conus Albers} point projection with 104 rows and 19 columns:
 #'
@@ -643,3 +643,19 @@
 #'   \item response: the response variable of interest.
 #'   }
 "sim_outlier"
+
+#' A simulated data set designed to show consequences of
+#' preferential sampling.
+#'
+#' @description This simulated data is a set of 200
+#' spatial locations that we could sample from.
+#'
+#' @format A \code{tibble} object with 200 rows and 4 columns:
+#'
+#' \itemize{
+#'   \item x: an x-coordinate giving the x position of the data point.
+#'   \item y: a y-coordinate giving the y position of the data point.
+#'   \item x1: an indicator variable serving as a possible predictor.
+#'   \item response: the response variable of interest.
+#'   }
+"sim_preferential"

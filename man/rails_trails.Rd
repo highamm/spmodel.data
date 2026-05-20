@@ -36,7 +36,7 @@ Data were modified from the \code{Stat2Data} \code{R} package. The original data
 rails_trails
 }
 \description{
-Characteristics of homes near a network of a rail trail network in an area of Northampton, Massachussetts in 2014.
+Characteristics of homes near a rail trail network in an area of Northampton, Massachussetts in 2014.
 }
 \references{
 "Rail Trails and Property Values: Is There an Association?", Ella Hartenian, Smith College and Nicholas J. Horton, Amherst College.

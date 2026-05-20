@@ -659,3 +659,18 @@
 #'   \item response: the response variable of interest.
 #'   }
 "sim_preferential"
+
+#' A simulated data set designed to show how the stationarity assumption
+#' can be fully assessed with a very large data set.
+#'
+#' @description This simulated data is a set of 1600
+#' observations.
+#'
+#' @format A \code{tibble} object with 1600 rows and 3 columns:
+#'
+#' \itemize{
+#'   \item x: an x-coordinate giving the x position of the data point.
+#'   \item y: a y-coordinate giving the y position of the data point.
+#'   \item response: the response variable of interest.
+#'   }
+"sim_quadrants"

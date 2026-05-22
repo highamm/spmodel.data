@@ -10,7 +10,7 @@
 #'   \item plate_z: The vertical coordinate of where the ball crosses home plate, measured in feet from the ground.
 #'   \item launch_speed: The speed of the ball off of Soto's bat, in miles per hour.
 #'   \item bb_type: A factor representing the type of hit with levels fly_ball, ground_ball, line_drive, and popup.
-#'   \item pitch_type: A factor representing the type of pitch with levels CH (change-up), CU (curveball), FC (fastball cutter), FF (four-seam fastball), FS (splitter), SI (sinker), SL (slider), and ST (sweeping slider).
+#'   \item pitch_type: A factor representing the type of pitch with levels CH (change-up or euphus), CU (curveball or knuckle curve or slurve), FC (fastball cutter), FF (four-seam fastball), FS (splitter), SI (sinker), SL (slider), and ST (sweeping slider).
 #'   }
 
 #' @source Data were obtained for non-commercial use from the statcast search on the baseball savant website \url{https://baseballsavant.mlb.com/statcast_search}. Statcast is maintained by the MLB.
@@ -30,7 +30,7 @@
 #'   \item plate_z: The vertical coordinate of where the ball crosses home plate, measured in feet from the ground.
 #'   \item launch_speed: The speed of the ball off of Clement's bat, in miles per hour.
 #'   \item bb_type: A factor representing the type of hit with levels fly_ball, ground_ball, line_drive, and popup.
-#'   \item pitch_type: A factor representing the type of pitch with levels CH (change-up), CU (curveball), FC (fastball cutter), FF (four-seam fastball), FS (splitter), SI (sinker), SL (slider), and ST (sweeping slider).
+#'   \item pitch_type: A factor representing the type of pitch with levels CH (change-up or euphus), CU (curveball or knuckle curve or slurve), FC (fastball cutter), FF (four-seam fastball), FS (splitter), SI (sinker), SL (slider), and ST (sweeping slider).
 #'   }
 
 #' @source Data were obtained for non-commercial use from the statcast search on the baseball savant website \url{https://baseballsavant.mlb.com/statcast_search}. Statcast is maintained by the MLB.

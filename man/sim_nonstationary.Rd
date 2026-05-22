@@ -20,7 +20,7 @@ sim_nonstationary
 \description{
 This simulated data is a set of 400
 observations. The data set is designed so that the left part
-of the study region is very different from the right part
+of the study region has very different overall variability from the right part
 of the study region.
 }
 \keyword{datasets}

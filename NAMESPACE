@@ -2,6 +2,7 @@
 
 export(make_cov_df)
 export(make_cov_plot)
+export(show_kwts)
 import(dplyr)
 import(ggplot2)
 import(sf)

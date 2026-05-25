@@ -21,13 +21,14 @@ make_cov_df(
 
 \item{max_dist}{is the maximum distance that we want to calculate covariance for. The function will return covariances for 500 distances, equally spaced between 0 and \code{max_dist}.}
 
-\item{spcov_type}{is either \code{"exponential"}, \code{"gaussian"}, or \code{"spherical"}.
-
-#' @return a \code{tibble} with 500 rows and 3 columns \itemize{
+\item{spcov_type}{is either \code{"exponential"}, \code{"gaussian"}, or \code{"spherical"}.}
+}
+\value{
+a \code{tibble} with 500 rows and 3 columns \itemize{
   \item distance_grid, a sequence of 500 distances, equally spaced from 0 to \code{max_dist}
   \item cov_full, the covariance.
   \item cov_type, the covariance model used (\code{"exponential"}, \code{"gaussian"}, or \code{"spherical"}).
-  }}
+  }
 }
 \description{
 For exponential, gaussian, and spherical spatial covariances, this function returns

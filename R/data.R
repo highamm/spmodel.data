@@ -708,3 +708,21 @@
 #'   \item response: the response variable of interest.
 #'   }
 "sim_nonstationary_2"
+
+#' A simulated data set designed to show a flaw with r-squared as a model
+#' comparison tool.
+#'
+#' @description This simulated data is a set of 400
+#' observations. The data set is designed to show that r-squared and generalized
+#' r-squared are not a good way to compare a non-spatial model with
+#' a spatial model.
+#'
+#' @format A \code{tibble} object with 400 rows and 4 columns:
+#'
+#' \itemize{
+#'   \item x: an x-coordinate giving the x position of the data point.
+#'   \item y: a y-coordinate giving the y position of the data point.
+#'   \item x1: a quantitative predictor variable.
+#'   \item response: the response variable of interest.
+#'   }
+"sim_r2"

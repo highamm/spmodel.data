@@ -726,3 +726,36 @@
 #'   \item response: the response variable of interest.
 #'   }
 "sim_r2"
+
+#' National Wetland Condition Assessment (NWCA) 2016 Data
+#'
+#' @description A subset of data from USEPA's 2016 National Wetland Condition Assessment survey. The response variable is a vegetation index: a larger number corresponds to more vegetation. The data was modified from a data set used in a paper given in references.
+#'
+#' @format An \code{sf} object with 810 rows and 4 columns:
+#'
+#' \itemize{
+#'   \item vmmi: The vegetation multi-metric index (numeric from 0 to 100)
+#'   \item wt: The wetland type (Herbaceous or Woody).
+#'   \item sh: A soil hardening score (numeric from 0 to 424).
+#'   \item geometry: \code{POINT} geometry from an NAD83 projection (EPSG: 5070).
+#' }
+#' @source Raw data can be found at https://www.epa.gov/national-aquatic-resource-surveys/data-national-aquatic-resource-surveys
+#' @references
+#' Dumelle, Michael, Rob Trangucci, Amanda M. Nahlik, Anthony R. Olsen, Kathryn M. Irvine, Karen Blocksom, Jay M. Ver Hoef, and Claudio Fuentes (2025). Missing data in ecology: Syntheses, clarifications, and considerations. Ecological Monographs, 95(4), e70037.
+"wetlands"
+
+#' National Wetland Condition Assessment (NWCA) 2016 Prediction Data
+#'
+#' @description Wetlands locations for which we would like to predict vegetation index from wetland type and soil hardening predictor variables (as well as spatial patterning).
+#'
+#' @format An \code{sf} object with 152 rows and 3 columns:
+#'
+#' \itemize{
+#'   \item wt: The wetland type (Herbaceous or Woody).
+#'   \item sh: A soil hardening score (numeric from 0 to 424).
+#'   \item geometry: \code{POINT} geometry from an NAD83 projection (EPSG: 5070).
+#' }
+#' @source Raw data can be found at https://www.epa.gov/national-aquatic-resource-surveys/data-national-aquatic-resource-surveys
+#' @references
+#' Dumelle, Michael, Rob Trangucci, Amanda M. Nahlik, Anthony R. Olsen, Kathryn M. Irvine, Karen Blocksom, Jay M. Ver Hoef, and Claudio Fuentes (2025). Missing data in ecology: Syntheses, clarifications, and considerations. Ecological Monographs, 95(4), e70037.
+"wetlands_preds"

@@ -33,6 +33,9 @@
 #' @import spmodel
 #' @export show_kwts
 
+#### TODO
+#### change these so that they plot residual weights instead of kriging weights
+#### OR, add an argument for this.
 
 show_kwts <- function(model, og_data, pred_data, index) {
 
@@ -54,7 +57,8 @@ show_kwts <- function(model, og_data, pred_data, index) {
     geom_sf(data = og_data, aes(colour = kwts)) +
     scale_colour_viridis_c() +
     geom_sf(data = pred_data[index, ], size = 4,
-            colour = "black", alpha = 0.5)
+            colour = "black", alpha = 0.5) +
+    labs(colour = "res. wts.")
 
   } else {
     p1 <- ggplot(data = og_data, aes_string(x = model$xcoord,
@@ -62,11 +66,13 @@ show_kwts <- function(model, og_data, pred_data, index) {
       geom_point(aes(colour = kwts)) +
       scale_colour_viridis_c() +
       geom_point(data = pred_data[index, ], size = 4,
-              colour = "black", alpha = 0.5)
+              colour = "black", alpha = 0.5) +
+      labs(colour = "res. wts.")
   }
   p2 <- ggplot(data = og_data) +
     geom_histogram(aes(x = kwts), colour = "skyblue4",
-                   fill = "skyblue1", bins = 15)
+                   fill = "skyblue1", bins = 15) +
+    labs(x = "res. wts.")
 
   gridExtra::grid.arrange(p1, p2, nrow = 2)
 }

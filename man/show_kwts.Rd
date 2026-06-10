@@ -4,7 +4,7 @@
 \alias{show_kwts}
 \title{Plots kriging weights from a spatial model.}
 \usage{
-show_kwts(model, og_data, pred_data, index)
+show_kwts(model, og_data, pred_data, index, type = "full")
 }
 \arguments{
 \item{model}{is the fitted model object from \code{splm}.}
@@ -14,9 +14,11 @@ show_kwts(model, og_data, pred_data, index)
 \item{pred_data}{is the data set that contains the locations and predictor values for which we would like to predict the response at.}
 
 \item{index}{is the row number corresponding to the row in \code{pred_data} for which we would like to visualize the kriging weights.}
+
+\item{type}{can be either \code{"full"} to plot the full kriging weights, \code{"resid"} to plot the residual/spatial contribution to the weights, or \code{"mean"} to plot the fixed effects/mean contribution to the weights.}
 }
 \value{
-two plots of the kriging weights. One plot is a map of the kriging weights for the particular row (\code{index}) we are predicting for. The other is a simple histogram of the weights.
+two plots of the weights. One plot is a map of the weights for the particular row (\code{index}) we are predicting for. The other is a simple histogram of the weights.
 }
 \description{
 Plots kriging weights using a fitted model and a data set with locations
@@ -38,5 +40,5 @@ launch_mod <- splm(launch_speed ~ 1,
 
 lake_mod <- splm(log_cond ~ temp + elev, data = lake, spcov_type = "gaussian")
 show_kwts(model = lake_mod, og_data = lake,
-          pred_data = lake_preds, index = 4)
+          pred_data = lake_preds, index = 4, type = "full")
 }

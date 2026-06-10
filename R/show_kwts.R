@@ -9,8 +9,9 @@
 #' @param og_data is the name of the data set used to fit the model.
 #' @param pred_data is the data set that contains the locations and predictor values for which we would like to predict the response at.
 #' @param index is the row number corresponding to the row in \code{pred_data} for which we would like to visualize the kriging weights.
+#' @param type can be either \code{"full"} to plot the full kriging weights, \code{"resid"} to plot the residual/spatial contribution to the weights, or \code{"mean"} to plot the fixed effects/mean contribution to the weights.
 #'
-#' @return two plots of the kriging weights. One plot is a map of the kriging weights for the particular row (\code{index}) we are predicting for. The other is a simple histogram of the weights.
+#' @return two plots of the weights. One plot is a map of the weights for the particular row (\code{index}) we are predicting for. The other is a simple histogram of the weights.
 #' @examples
 #' clement_hits_pred <- tibble(launch_speed = c(NA, NA, NA),
 #'                             plate_x = c(-1, 0, 1),
@@ -25,7 +26,7 @@
 #'
 #' lake_mod <- splm(log_cond ~ temp + elev, data = lake, spcov_type = "gaussian")
 #' show_kwts(model = lake_mod, og_data = lake,
-#'           pred_data = lake_preds, index = 4)
+#'           pred_data = lake_preds, index = 4, type = "full")
 
 #' @import dplyr
 #' @import tibble
@@ -33,11 +34,7 @@
 #' @import spmodel
 #' @export show_kwts
 
-#### TODO
-#### change these so that they plot residual weights instead of kriging weights
-#### OR, add an argument for this.
-
-show_kwts <- function(model, og_data, pred_data, index) {
+show_kwts <- function(model, og_data, pred_data, index, type = "full") {
 
   # get Kriging weights
   Sigma <- covmatrix(model)
@@ -47,8 +44,19 @@ show_kwts <- function(model, og_data, pred_data, index) {
   SigmaI <- solve(Sigma)
   frontmatter <- vcov(model) %*% t(X) %*% SigmaI
 
-  kwts <- X0 %*% frontmatter + Sigma_uo %*% SigmaI %*%
+  mean_kwts <- X0 %*% frontmatter
+  resid_kwts <- Sigma_uo %*% SigmaI %*%
     (diag(NROW(og_data)) - X %*% frontmatter)
+
+  kwts <- switch(type,
+                 full = mean_kwts + resid_kwts,
+                 mean = mean_kwts,
+                 resid = resid_kwts)
+
+  plot_lab <- switch(type,
+                     full = "kriging weights",
+                     mean = "mean weights",
+                     resid = "residual weights")
 
   og_data$kwts <- kwts[index, ]
 
@@ -58,21 +66,21 @@ show_kwts <- function(model, og_data, pred_data, index) {
     scale_colour_viridis_c() +
     geom_sf(data = pred_data[index, ], size = 4,
             colour = "black", alpha = 0.5) +
-    labs(colour = "res. wts.")
+    labs(colour = plot_lab)
 
   } else {
     p1 <- ggplot(data = og_data, aes_string(x = model$xcoord,
-                                                 y = model$ycoord)) +
+                                            y = model$ycoord)) +
       geom_point(aes(colour = kwts)) +
       scale_colour_viridis_c() +
       geom_point(data = pred_data[index, ], size = 4,
               colour = "black", alpha = 0.5) +
-      labs(colour = "res. wts.")
+      labs(colour = plot_lab)
   }
   p2 <- ggplot(data = og_data) +
     geom_histogram(aes(x = kwts), colour = "skyblue4",
                    fill = "skyblue1", bins = 15) +
-    labs(x = "res. wts.")
+    labs(x = plot_lab)
 
   gridExtra::grid.arrange(p1, p2, nrow = 2)
 }

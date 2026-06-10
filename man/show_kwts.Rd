@@ -18,7 +18,7 @@ show_kwts(model, og_data, pred_data, index, type = "full")
 \item{type}{can be either \code{"full"} to plot the full kriging weights, \code{"resid"} to plot the residual/spatial contribution to the weights, or \code{"mean"} to plot the fixed effects/mean contribution to the weights.}
 }
 \value{
-two plots of the weights. One plot is a map of the weights for the particular row (\code{index}) we are predicting for. The other is a simple histogram of the weights.
+A map of the weights for the particular row (\code{index}) we are predicting for.
 }
 \description{
 Plots kriging weights using a fitted model and a data set with locations

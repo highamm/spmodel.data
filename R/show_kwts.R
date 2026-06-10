@@ -11,7 +11,7 @@
 #' @param index is the row number corresponding to the row in \code{pred_data} for which we would like to visualize the kriging weights.
 #' @param type can be either \code{"full"} to plot the full kriging weights, \code{"resid"} to plot the residual/spatial contribution to the weights, or \code{"mean"} to plot the fixed effects/mean contribution to the weights.
 #'
-#' @return two plots of the weights. One plot is a map of the weights for the particular row (\code{index}) we are predicting for. The other is a simple histogram of the weights.
+#' @return A map of the weights for the particular row (\code{index}) we are predicting for.
 #' @examples
 #' clement_hits_pred <- tibble(launch_speed = c(NA, NA, NA),
 #'                             plate_x = c(-1, 0, 1),
@@ -77,10 +77,11 @@ show_kwts <- function(model, og_data, pred_data, index, type = "full") {
               colour = "black", alpha = 0.5) +
       labs(colour = plot_lab)
   }
-  p2 <- ggplot(data = og_data) +
-    geom_histogram(aes(x = kwts), colour = "skyblue4",
-                   fill = "skyblue1", bins = 15) +
-    labs(x = plot_lab)
+  # p2 <- ggplot(data = og_data) +
+  #   geom_histogram(aes(x = kwts), colour = "skyblue4",
+  #                  fill = "skyblue1", bins = 15) +
+  #   labs(x = plot_lab)
 
-  gridExtra::grid.arrange(p1, p2, nrow = 2)
+  # gridExtra::grid.arrange(p1, p2, nrow = 2)
+  p1
 }

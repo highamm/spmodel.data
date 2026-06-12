@@ -5,7 +5,7 @@
 \alias{landslides}
 \title{Landslide data from Southern Ecuador.}
 \format{
-An \code{sf} object with an \code{WGS 84 / UTM zone 17S} point projection with 350 rows and 8 columns:
+An \code{sf} object with an \code{WGS 84 / UTM zone 17S} point projection with 349 rows and 8 columns:
 
 \itemize{
   \item landslide_ind: an indicator variable that is a 0 if a landslide did not take place at the location and a 1 if a landslide did take place.

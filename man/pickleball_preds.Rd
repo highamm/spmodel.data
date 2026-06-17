@@ -5,7 +5,7 @@
 \alias{pickleball_preds}
 \title{Pickleball prediction locations for a professional women's player.}
 \format{
-A \code{tibble} object with 3 rows and 2 columns:
+A \code{tibble} object with 4 rows and 2 columns:
 
 \itemize{
   \item loc_x: the x-coordinate of where the player is standing when the shot is made.

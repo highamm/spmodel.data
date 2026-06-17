@@ -775,3 +775,31 @@
 #' @references
 #' Dumelle, Michael, Rob Trangucci, Amanda M. Nahlik, Anthony R. Olsen, Kathryn M. Irvine, Karen Blocksom, Jay M. Ver Hoef, and Claudio Fuentes (2025). Missing data in ecology: Syntheses, clarifications, and considerations. Ecological Monographs, 95(4), e70037.
 "wetlands_preds"
+
+#' A simulated data set designed to provide visualizations for interpreting the
+#' estimated slope in a basic poisson regression model.
+#'
+#' @description This simulated data is a set of 100 observations. The estimated
+#' slope from a poisson regression assuming independence is positive.
+#'
+#' @format A \code{tibble} object with 100 rows and 2 columns:
+#'
+#' \itemize{
+#'   \item x: a quantitative predictor variable.
+#'   \item response: the response variable of interest.
+#'   }
+"sim_poisson_pos"
+
+#' A simulated data set designed to provide visualizations for interpreting the
+#' estimated slope in a basic poisson regression model.
+#'
+#' @description This simulated data is a set of 100 observations. The estimated
+#' slope from a poisson regression assuming independence is negative.
+#'
+#' @format A \code{tibble} object with 100 rows and 2 columns:
+#'
+#' \itemize{
+#'   \item x: a quantitative predictor variable.
+#'   \item response: the response variable of interest.
+#'   }
+"sim_poisson_neg"

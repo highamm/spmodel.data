@@ -38,6 +38,27 @@
 #' MLB Advanced Media. (2025). Baseball Savant: Statcast search [Ernie Clement]. Baseball Savant.
 "clement_hits"
 
+#' Swing data for Ernie Clement in the 2025 season through the end of June.
+#'
+#' @description Ernie Clement's swing data for each swing that he took. The result of
+#' each swing was either a ball put into the field of play (whether or not the result
+#' of that play was an out) or a strike.
+#'
+#' @format A \code{tibble} object with 616 rows and 119 columns:
+#'
+#' \itemize{
+#'   \item id: an identification number.
+#'   \item plate_x: the x-coordinate of where the ball crossed the plate during contact (in feet). A negative value indicates a pitch that is left of the center (from the perspective of the catcher) while a positive value indicates a pitch that is right of the center (from the perspective of the catcher).
+#'   \item plate_z: The vertical coordinate of where the ball crosses home plate, measured in feet from the ground.
+#'   \item type_ind: An indicator variable equal to \code{1} if the ball was put into the field of play and a \code{0} if the swing resulted in a strike.
+#'   \item type: A factor that is either an \code{X} if the ball was put into the field of play and a \code{S} if the swing resulted in a strike.
+#'   }
+
+#' @source Data were obtained for non-commercial use from the statcast search on the baseball savant website \url{https://baseballsavant.mlb.com/statcast_search}. Statcast is maintained by the MLB.
+#' @references
+#' MLB Advanced Media. (2025). Baseball Savant: Statcast search [Ernie Clement]. Baseball Savant.
+"clement_swings"
+
 #' Data on high schools in Ohio (United States).
 #'
 #' @description Student-to-faculty ratio data for high schools at point locations in Ohio given as X and Y coordinates for the 2022-2023 school year.

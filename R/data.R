@@ -893,3 +893,18 @@
 #' names for Guyafor data_. R package version 0.4.1, commit
 #' 532ff109542829aec1bbf75353260aa4c4c7db57, <https://github.com/EcoFoG/vernabota>.
 "acapori"
+
+#' Fish data. TODO: NEED TO DOCUMENT AND REFERENCE.
+#'
+#' @description DESCRIBE
+#'
+#' @format An \code{sf} object with 104 rows and 3 columns:
+#'
+#' \itemize{
+#'   \item fish_richness: the number of unique species of fish in the stream.
+#'   \item mean_temp: the average air temperature (ELABORATE: annual?).
+#'   \item geometry: a point location of the measurements.
+#'   }
+#' @source
+#' @references
+"fish"

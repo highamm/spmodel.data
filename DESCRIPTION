@@ -24,7 +24,9 @@ Imports:
     sf,
     tibble,
     ggplot2,
-    dplyr
+    dplyr,
+    tidyr,
+    spatstat
 URL: https://github.com/highamm/spbook.data
 BugReports: https://github.com/highamm/spbook.data/issues
 Config/roxygen2/version: 8.0.0

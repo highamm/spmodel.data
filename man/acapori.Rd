@@ -25,4 +25,10 @@ acapori
 \description{
 Point locations of Pogonophora schomburgkiana (common name Acapori) obtained from the \code{Paracou6_2016} data set in the \code{vernabota} \code{R} package. The plot dimensions are 250 by 250 (in meters).
 }
+\references{
+Derroire G, Aubry-Kientz M, Mirabel A, Krebber D, Marcon E, Herault B
+(2026). _vernabota: Association between vernacular and botanical
+names for Guyafor data_. R package version 0.4.1, commit
+532ff109542829aec1bbf75353260aa4c4c7db57, <https://github.com/EcoFoG/vernabota>.
+}
 \keyword{datasets}

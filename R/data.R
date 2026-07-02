@@ -908,3 +908,39 @@
 #' @source
 #' @references
 "fish"
+
+#' Point locations of abandoned vehicles.
+#'
+#' @description Locations of abandoned vehicles in the Irving Park area of Chicago in September of 2016. Duplicates for locations that had more than one registered abandoned vehicle during this month have been dropped.
+#'
+#' @format An \code{sf} object with \code{NAD83 / Illinois East} projected CRS with 97 rows and 9 columns:
+#'
+#' \itemize{
+#'   \item CreationDt: the date that the abandoned vehicle was registered.
+#'   \item Address: the address of the abandoned vehicle.
+#'   \item ZIPCode: the zip code for the vehicle.
+#'   \item X: the projected x-coordinate. Distances are in meters.
+#'   \item Y: the projected y-coordinate. Distances are in meters.
+#'   \item Ward: the ward the vehicle was in.
+#'   \item Latitude: the latitudinal coordinate of the vehicle.
+#'   \item Longitude: the longitudinal coordinate of the vehicle.
+#'   \item geometry: the point-level geometry, in a \code{NAD83 / Illinois East} projected CRS.
+#'   }
+#' @source The data has been modified from the \code{vehicle_pts} data set in the \code{geodaData} package. THe original source of the data is from the city of Chicago: \url{https://data.cityofchicago.org/Service-Requests/311-Service-Requests-Abandoned-Vehicles/3c9v-pnva}
+#' @references
+#' Li A (2020). _geodaData: Spatial Analysis Datasets for Teaching_. doi:10.32614/CRAN.package.geodaData <https://doi.org/10.32614/CRAN.package.geodaData>. R package version 0.1.0, <https://CRAN.R-project.org/package=geodaData>.
+"irving_vehicles"
+
+#' Polygonal boundary for Irving Park.
+#'
+#' @description Contains the polygonal shape of the Irving Park area in the city of Chicago.
+#'
+#' @format An \code{sf} object with \code{NAD83 / Illinois East} projected CRS and polygonal geometry with 1 row and 2 columns:
+#'
+#' \itemize{
+#'   \item community: the name of the community (Irving Park).
+#'   \item geometry: coordinates giving the shape of the Irving Park community.
+#'   }
+#' @source The data has been modified from the \code{chicago_comm} data set in the \code{geodaData} package. THe original source of the data is from the city of Chicago: \url{https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6}
+#' @references
+"irving_boundary"

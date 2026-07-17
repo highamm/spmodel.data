@@ -944,3 +944,21 @@
 #' @source The data has been modified from the \code{chicago_comm} data set in the \code{geodaData} package. THe original source of the data is from the city of Chicago: \url{https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6}
 #' @references
 "irving_boundary"
+
+#' Moose counts and presence in Alaska, USA
+#'
+#' @description Moose counts and presence in Alaska, USA. Unlike the \code{moose} \code{sf} object, \code{moose_boundaries} has polygonal geometry and contains the boundaries. However, for privacy reasons, the coordinates for these boundaries do not correspond to the exact locations: they are shifted and scaled. Additionally, the data set contains locations at which moose were not sampled.
+#'
+#' @format An \code{sf} object with 1260 rows and 5 columns.
+#' \itemize{
+#'   \item elev: The elevation. The value is \code{NA} if the location was not sampled.
+#'   \item strat: A factor representing strata (used for sampling). Can take values \code{L} and \code{M}. The value is \code{NA} if the location was not sampled.
+#'   \item count: The count (number) of moose observed. The value is \code{NA} if the location was not sampled.
+#'   \item presence: A binary factor representing whether no moose were observed (value \code{0}) or at least one moose was observed
+#'     (value \code{1}). The value is \code{NA} if the location was not sampled.
+#'   \item geometry: \code{POLYGON} geometry representing coordinates in an unknown projection.
+#' }
+#' @source
+#' Alaska Department of Fish and Game, Division of Wildlife Conservation has released
+#'   this data set under the CC0 license.
+"moose_boundaries"

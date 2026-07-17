@@ -962,3 +962,14 @@
 #' Alaska Department of Fish and Game, Division of Wildlife Conservation has released
 #'   this data set under the CC0 license.
 "moose_boundaries"
+
+#' Toy polygons.
+#'
+#' @description This data set contains toy rectangular polygons for use in a conceptual exercise.
+#'
+#' @format An \code{sf} object with 4 rows and two columns
+#' \itemize{
+#'   \item id: The identification number for each of four rectangular polygons.
+#'   \item geometry: the boundaries for the rectangles.
+#' }
+"toy_polygon"

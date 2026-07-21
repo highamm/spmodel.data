@@ -3,8 +3,7 @@
 \docType{data}
 \name{sim_nonstationary_2}
 \alias{sim_nonstationary_2}
-\title{A simulated data set designed to show clear evidence of
-non-stationarity.}
+\title{Non-stationary Data}
 \format{
 A \code{tibble} object with 1000 rows and 3 columns:
 
@@ -18,7 +17,8 @@ A \code{tibble} object with 1000 rows and 3 columns:
 sim_nonstationary_2
 }
 \description{
-This simulated data is a set of 1000
+A simulated data set designed to show clear evidence of
+non-stationarity. This simulated data is a set of 1000
 observations. The data set is designed so that the left part
 of the study region has very different correlation than the
 right part of the study region.

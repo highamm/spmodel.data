@@ -543,9 +543,9 @@
 #' The data were originally collected by the Portland Parks and Recreation's Urban Forestry Tree Inventory Project (\url{https://www.portland.gov/trees/get-involved/tree-inventory}).
 "pdx_oaks_df"
 
-#' Exam scores for an economics exam in a course at a large Midwest institution.
+#' Exam Scores
 #'
-#' @description Bergtold et al. (2019) investigated whether seating preference had any impact on student exam performance, among other questions. The data here corresponds to the first exam in an economics course for one of their study years, 2010. Each row corresponds to a particular student.
+#' @description Exam scores for an economics exam in a course at a large Midwest institution. Bergtold et al. (2019) investigated whether seating preference had any impact on student exam performance, among other questions. The data here corresponds to the first exam in an economics course for one of their study years, 2010. Each row corresponds to a particular student.
 #'
 #' @format A \code{tibble} object with 186 rows and 17 columns:
 #'
@@ -567,10 +567,11 @@
 #' Bergtold, J. S., Yeager, E. A., & Griffin, T. W. (2019). Spatial dynamics in the classroom: Does seating choice matter?. Plos one, 14(12), e0226953.
 "exam_scores"
 
-#' A simulated data set designed to show how the mean structure and
-#' error structure of a model are intertwined.
+#' Mean Error Structure
 #'
-#' @description This simulated data was was generated such that
+#' @description A simulated data set designed to show how the mean structure and
+#' error structure of a model are intertwined.
+#' This simulated data was was generated such that
 #' both the predictor and the response are very spatially patterned.
 #'
 #' @format A \code{tibble} object with 400 rows and 4 columns:
@@ -583,10 +584,11 @@
 #'   }
 "sim_mean_error"
 
-#' A second simulated data set designed to show how the mean structure and
-#' error structure of a model are intertwined.
+#' Mean Error Structure
 #'
-#' @description This simulated data was was generated such that
+#' @description A second simulated data set designed to show how the mean structure and
+#' error structure of a model are intertwined.
+#' This simulated data was was generated such that
 #' the response is very spatially patterned within
 #' each level of the predictor variable (so, after accounting for the
 #' effects of the predictor).
@@ -601,10 +603,11 @@
 #'   }
 "sim_mean_error_2"
 
-#' A simulated data set designed to show why we cannot use raw residuals
-#' to evaluate the constant variance piece of the stationarity assumption.
+#' Stationarity Data
 #'
-#' @description This simulated data was was generated such that
+#' @description A simulated data set designed to show why we cannot use raw residuals
+#' to evaluate the constant variance piece of the stationarity assumption.
+#' This simulated data was was generated such that
 #' all model assumptions hold. However, when using raw residuals to
 #' evaluate the constant variance piece of stationarity, the residual
 #' plot gives the appearance of non-constant variance. Spatial dependence
@@ -622,11 +625,12 @@
 #'   }
 "sim_stationarity"
 
-#' A simulated data set designed to show why we cannot use a histogram
+#' Normality Data
+#'
+#' @description A simulated data set designed to show why we cannot use a histogram
 #' of the response variable or a histogram of the raw residuals
 #' to evaluate the normality assumption in a spatial model.
-#'
-#' @description This simulated data was was generated such that
+#' This simulated data was was generated such that
 #' all model assumptions hold. However, when using raw residuals to
 #' evaluate the normality assumption, the histogram appears to be
 #' extremely skewed. Spatial dependence
@@ -643,11 +647,12 @@
 #'   }
 "sim_normality"
 
-#' A simulated data set designed to show that the linearity assumption
+#' Linearity Data
+#'
+#' @description A simulated data set designed to show that the linearity assumption
 #' can hold in a spatial model even if a scatterplot between the
 #' response variable and a predictor variable appears to be curved.
-#'
-#' @description This simulated data was was generated such that
+#' This simulated data was was generated such that
 #' all model assumptions hold. It is possible that the relationship is
 #' linear after accounting for the effects of the other model predictors
 #' and after accounting for the spatial effects.
@@ -664,11 +669,11 @@
 #'   }
 "sim_linearity"
 
-#' A simulated data set designed to show how spatial leverage can be
-#' different than leverage in a model with independent random
-#' errors.
+#' Leverage Data
 #'
-#' @description This simulated data was was generated such that
+#' @description A simulated data set designed to show how spatial leverage can be
+#' different than leverage in a model with independent random
+#' errors. This simulated data was was generated such that
 #' all model assumptions hold. However, one of the spatial locations
 #' is very far away from the other locations in the data set.
 #'
@@ -683,11 +688,11 @@
 #'   }
 "sim_leverage"
 
-#' A simulated data set designed to show how spatial outliers can be
-#' different than outliers in a model with independent random
-#' errors.
+#' Outlier Data
 #'
-#' @description This simulated data was was generated such that
+#' @description A simulated data set designed to show how spatial outliers can be
+#' different than outliers in a model with independent random
+#' errors. This simulated data was was generated such that
 #' all model assumptions hold. However, one of the observations has
 #' an extreme response value relative to the response value at the
 #' locations in direct proximity to it.
@@ -701,10 +706,10 @@
 #'   }
 "sim_outlier"
 
-#' A simulated data set designed to show consequences of
-#' preferential sampling.
+#' Preferential Sampling Data
 #'
-#' @description This simulated data is a set of 200
+#' @description A simulated data set designed to show consequences of
+#' preferential sampling. This simulated data is a set of 200
 #' spatial locations that we could sample from.
 #'
 #' @format A \code{tibble} object with 200 rows and 4 columns:
@@ -717,11 +722,11 @@
 #'   }
 "sim_preferential"
 
-#' A simulated data set designed to show how the stationarity assumption
-#' can be fully assessed with a very large data set.
+#' Assessing Stationarity
 #'
-#' @description This simulated data is a set of 1600
-#' observations.
+#' @description A simulated data set designed to show how the stationarity assumption
+#' can be fully assessed with a very large data set.
+#' This simulated data is a set of 1600 observations.
 #'
 #' @format A \code{tibble} object with 1600 rows and 3 columns:
 #'
@@ -732,10 +737,10 @@
 #'   }
 "sim_quadrants"
 
-#' A simulated data set designed to show clear evidence of
-#' non-stationarity.
+#' Non-stationary Data
 #'
-#' @description This simulated data is a set of 400
+#' @description A simulated data set designed to show clear evidence of
+#' non-stationarity. This simulated data is a set of 400
 #' observations. The data set is designed so that the left part
 #' of the study region has very different overall variability from the right part
 #' of the study region.
@@ -749,10 +754,10 @@
 #'   }
 "sim_nonstationary"
 
-#' A simulated data set designed to show clear evidence of
-#' non-stationarity.
+#' Non-stationary Data
 #'
-#' @description This simulated data is a set of 1000
+#' @description A simulated data set designed to show clear evidence of
+#' non-stationarity. This simulated data is a set of 1000
 #' observations. The data set is designed so that the left part
 #' of the study region has very different correlation than the
 #' right part of the study region.
@@ -766,10 +771,10 @@
 #'   }
 "sim_nonstationary_2"
 
-#' A simulated data set designed to show a flaw with r-squared as a model
-#' comparison tool.
+#' R-squared Flaw
 #'
-#' @description This simulated data is a set of 400
+#' @description A simulated data set designed to show a flaw with r-squared as a model
+#' comparison tool. This simulated data is a set of 400
 #' observations. The data set is designed to show that r-squared and generalized
 #' r-squared are not a good way to compare a non-spatial model with
 #' a spatial model.
@@ -821,10 +826,11 @@
 #' Dumelle, Michael, Rob Trangucci, Amanda M. Nahlik, Anthony R. Olsen, Kathryn M. Irvine, Karen Blocksom, Jay M. Ver Hoef, and Claudio Fuentes (2025). Missing data in ecology: Syntheses, clarifications, and considerations. Ecological Monographs, 95(4), e70037.
 "wetlands_preds"
 
-#' A simulated data set designed to provide visualizations for interpreting the
-#' estimated slope in a basic poisson regression model.
+#' Poisson Data Positive Slope
 #'
-#' @description This simulated data is a set of 100 observations. The estimated
+#' @description A simulated data set designed to provide visualizations for
+#'  interpreting the estimated slope in a basic poisson regression model.
+#'  This simulated data is a set of 100 observations. The estimated
 #' slope from a poisson regression assuming independence is positive.
 #'
 #' @format A \code{tibble} object with 100 rows and 2 columns:
@@ -835,10 +841,11 @@
 #'   }
 "sim_poisson_pos"
 
-#' A simulated data set designed to provide visualizations for interpreting the
-#' estimated slope in a basic poisson regression model.
+#' Poisson Data Negative Slope
 #'
-#' @description This simulated data is a set of 100 observations. The estimated
+#' @description A simulated data set designed to provide visualizations for
+#'  interpreting the estimated slope in a basic poisson regression model.
+#'  This simulated data is a set of 100 observations. The estimated
 #' slope from a poisson regression assuming independence is negative.
 #'
 #' @format A \code{tibble} object with 100 rows and 2 columns:
@@ -963,7 +970,7 @@
 #'   this data set under the CC0 license.
 "moose_boundaries"
 
-#' Toy polygons.
+#' Toy polygons
 #'
 #' @description This data set contains toy rectangular polygons for use in a conceptual exercise.
 #'
@@ -973,3 +980,18 @@
 #'   \item geometry: the boundaries for the rectangles.
 #' }
 "toy_polygon"
+
+#' Binomial Data
+#'
+#' @description A simulated data set designed to show how to fit a binomial spatial model to a data.
+#'
+#' @format A \code{tibble} object with 60 rows and 5 columns:
+#'
+#' \itemize{
+#'   \item locations_x: the x-coordinate location.
+#'   \item locations_y: the y-coordinate location.
+#'   \item n_success: the number of "successes" at the location.
+#'   \item n_fail: the number of "failures" at the location.
+#'   \item n_obs: the number of total observations at the location.
+#'   }
+"sim_binomial"

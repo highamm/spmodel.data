@@ -3,8 +3,7 @@
 \docType{data}
 \name{sim_mean_error_2}
 \alias{sim_mean_error_2}
-\title{A second simulated data set designed to show how the mean structure and
-error structure of a model are intertwined.}
+\title{Mean Error Structure}
 \format{
 A \code{tibble} object with 400 rows and 4 columns:
 
@@ -19,6 +18,8 @@ A \code{tibble} object with 400 rows and 4 columns:
 sim_mean_error_2
 }
 \description{
+A second simulated data set designed to show how the mean structure and
+error structure of a model are intertwined.
 This simulated data was was generated such that
 the response is very spatially patterned within
 each level of the predictor variable (so, after accounting for the

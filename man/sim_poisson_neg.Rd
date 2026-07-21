@@ -3,8 +3,7 @@
 \docType{data}
 \name{sim_poisson_neg}
 \alias{sim_poisson_neg}
-\title{A simulated data set designed to provide visualizations for interpreting the
-estimated slope in a basic poisson regression model.}
+\title{Poisson Data Negative Slope}
 \format{
 A \code{tibble} object with 100 rows and 2 columns:
 
@@ -17,7 +16,9 @@ A \code{tibble} object with 100 rows and 2 columns:
 sim_poisson_neg
 }
 \description{
-This simulated data is a set of 100 observations. The estimated
+A simulated data set designed to provide visualizations for
+ interpreting the estimated slope in a basic poisson regression model.
+ This simulated data is a set of 100 observations. The estimated
 slope from a poisson regression assuming independence is negative.
 }
 \keyword{datasets}

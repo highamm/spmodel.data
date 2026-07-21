@@ -3,9 +3,7 @@
 \docType{data}
 \name{sim_normality}
 \alias{sim_normality}
-\title{A simulated data set designed to show why we cannot use a histogram
-of the response variable or a histogram of the raw residuals
-to evaluate the normality assumption in a spatial model.}
+\title{Normality Data}
 \format{
 A \code{tibble} object with 200 rows and 3 columns:
 
@@ -19,6 +17,9 @@ A \code{tibble} object with 200 rows and 3 columns:
 sim_normality
 }
 \description{
+A simulated data set designed to show why we cannot use a histogram
+of the response variable or a histogram of the raw residuals
+to evaluate the normality assumption in a spatial model.
 This simulated data was was generated such that
 all model assumptions hold. However, when using raw residuals to
 evaluate the normality assumption, the histogram appears to be

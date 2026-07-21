@@ -3,9 +3,7 @@
 \docType{data}
 \name{sim_leverage}
 \alias{sim_leverage}
-\title{A simulated data set designed to show how spatial leverage can be
-different than leverage in a model with independent random
-errors.}
+\title{Leverage Data}
 \format{
 A \code{tibble} object with 200 rows and 3 columns:
 
@@ -20,7 +18,9 @@ A \code{tibble} object with 200 rows and 3 columns:
 sim_leverage
 }
 \description{
-This simulated data was was generated such that
+A simulated data set designed to show how spatial leverage can be
+different than leverage in a model with independent random
+errors. This simulated data was was generated such that
 all model assumptions hold. However, one of the spatial locations
 is very far away from the other locations in the data set.
 }

@@ -3,7 +3,7 @@
 \docType{data}
 \name{exam_scores}
 \alias{exam_scores}
-\title{Exam scores for an economics exam in a course at a large Midwest institution.}
+\title{Exam Scores}
 \format{
 A \code{tibble} object with 186 rows and 17 columns:
 
@@ -27,7 +27,7 @@ Data were obtained from \url{https://journals.plos.org/plosone/article?id=10.137
 exam_scores
 }
 \description{
-Bergtold et al. (2019) investigated whether seating preference had any impact on student exam performance, among other questions. The data here corresponds to the first exam in an economics course for one of their study years, 2010. Each row corresponds to a particular student.
+Exam scores for an economics exam in a course at a large Midwest institution. Bergtold et al. (2019) investigated whether seating preference had any impact on student exam performance, among other questions. The data here corresponds to the first exam in an economics course for one of their study years, 2010. Each row corresponds to a particular student.
 }
 \references{
 Bergtold, J. S., Yeager, E. A., & Griffin, T. W. (2019). Spatial dynamics in the classroom: Does seating choice matter?. Plos one, 14(12), e0226953.

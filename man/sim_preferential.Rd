@@ -3,8 +3,7 @@
 \docType{data}
 \name{sim_preferential}
 \alias{sim_preferential}
-\title{A simulated data set designed to show consequences of
-preferential sampling.}
+\title{Preferential Sampling Data}
 \format{
 A \code{tibble} object with 200 rows and 4 columns:
 
@@ -19,7 +18,8 @@ A \code{tibble} object with 200 rows and 4 columns:
 sim_preferential
 }
 \description{
-This simulated data is a set of 200
+A simulated data set designed to show consequences of
+preferential sampling. This simulated data is a set of 200
 spatial locations that we could sample from.
 }
 \keyword{datasets}

@@ -3,8 +3,7 @@
 \docType{data}
 \name{sim_r2}
 \alias{sim_r2}
-\title{A simulated data set designed to show a flaw with r-squared as a model
-comparison tool.}
+\title{R-squared Flaw}
 \format{
 A \code{tibble} object with 400 rows and 4 columns:
 
@@ -19,7 +18,8 @@ A \code{tibble} object with 400 rows and 4 columns:
 sim_r2
 }
 \description{
-This simulated data is a set of 400
+A simulated data set designed to show a flaw with r-squared as a model
+comparison tool. This simulated data is a set of 400
 observations. The data set is designed to show that r-squared and generalized
 r-squared are not a good way to compare a non-spatial model with
 a spatial model.

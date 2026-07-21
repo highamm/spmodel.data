@@ -3,8 +3,7 @@
 \docType{data}
 \name{sim_quadrants}
 \alias{sim_quadrants}
-\title{A simulated data set designed to show how the stationarity assumption
-can be fully assessed with a very large data set.}
+\title{Assessing Stationarity}
 \format{
 A \code{tibble} object with 1600 rows and 3 columns:
 
@@ -18,7 +17,8 @@ A \code{tibble} object with 1600 rows and 3 columns:
 sim_quadrants
 }
 \description{
-This simulated data is a set of 1600
-observations.
+A simulated data set designed to show how the stationarity assumption
+can be fully assessed with a very large data set.
+This simulated data is a set of 1600 observations.
 }
 \keyword{datasets}

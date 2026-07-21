@@ -3,8 +3,7 @@
 \docType{data}
 \name{sim_stationarity}
 \alias{sim_stationarity}
-\title{A simulated data set designed to show why we cannot use raw residuals
-to evaluate the constant variance piece of the stationarity assumption.}
+\title{Stationarity Data}
 \format{
 A \code{tibble} object with 200 rows and 4 columns:
 
@@ -19,6 +18,8 @@ A \code{tibble} object with 200 rows and 4 columns:
 sim_stationarity
 }
 \description{
+A simulated data set designed to show why we cannot use raw residuals
+to evaluate the constant variance piece of the stationarity assumption.
 This simulated data was was generated such that
 all model assumptions hold. However, when using raw residuals to
 evaluate the constant variance piece of stationarity, the residual

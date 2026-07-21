@@ -3,9 +3,7 @@
 \docType{data}
 \name{sim_outlier}
 \alias{sim_outlier}
-\title{A simulated data set designed to show how spatial outliers can be
-different than outliers in a model with independent random
-errors.}
+\title{Outlier Data}
 \format{
 A \code{tibble} object with 200 rows and 3 columns:
 
@@ -19,7 +17,9 @@ A \code{tibble} object with 200 rows and 3 columns:
 sim_outlier
 }
 \description{
-This simulated data was was generated such that
+A simulated data set designed to show how spatial outliers can be
+different than outliers in a model with independent random
+errors. This simulated data was was generated such that
 all model assumptions hold. However, one of the observations has
 an extreme response value relative to the response value at the
 locations in direct proximity to it.

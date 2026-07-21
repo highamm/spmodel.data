@@ -988,6 +988,7 @@
 #' @format A \code{tibble} object with 60 rows and 5 columns:
 #'
 #' \itemize{
+#'   \item id: a site identification number.
 #'   \item locations_x: the x-coordinate location.
 #'   \item locations_y: the y-coordinate location.
 #'   \item n_success: the number of "successes" at the location.

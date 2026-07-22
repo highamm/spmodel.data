@@ -21,4 +21,7 @@ Fish species richness data from a subset of an Environmental
  Protection Agency National Rivers and Streams Assessment (NRSA) program in
  the year 2018.
 }
+\references{
+Nahlik, A. M., Paulsen, S. G., Dumelle, M., Holdsworth, S., Lehmann, S., Tulve, N. S., ... & Frey, H. C. (2025). National Aquatic Resource Surveys (NARS): the foundation for long-term aquatic monitoring data across the United States. Environmental Monitoring and Assessment, 197(12), 1291.
+}
 \keyword{datasets}

@@ -914,8 +914,7 @@
 #'   \item mean_temp: the average annual air temperature, in degrees Celsius.
 #'   \item geometry: a point location of the measurements.
 #'   }
-#' @source
-#' @references
+#' @references Nahlik, A. M., Paulsen, S. G., Dumelle, M., Holdsworth, S., Lehmann, S., Tulve, N. S., ... & Frey, H. C. (2025). National Aquatic Resource Surveys (NARS): the foundation for long-term aquatic monitoring data across the United States. Environmental Monitoring and Assessment, 197(12), 1291.
 "fish"
 
 #' Point locations of abandoned vehicles.

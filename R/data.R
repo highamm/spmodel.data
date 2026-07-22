@@ -901,15 +901,17 @@
 #' 532ff109542829aec1bbf75353260aa4c4c7db57, <https://github.com/EcoFoG/vernabota>.
 "acapori"
 
-#' Fish data. TODO: NEED TO DOCUMENT AND REFERENCE.
+#' Fish data.
 #'
-#' @description DESCRIBE
+#' @description Fish species richness data from a subset of an Environmental
+#'  Protection Agency National Rivers and Streams Assessment (NRSA) program in
+#'  the year 2018.
 #'
 #' @format An \code{sf} object with 104 rows and 3 columns:
 #'
 #' \itemize{
 #'   \item fish_richness: the number of unique species of fish in the stream.
-#'   \item mean_temp: the average air temperature (ELABORATE: annual?).
+#'   \item mean_temp: the average annual air temperature, in degrees Celsius.
 #'   \item geometry: a point location of the measurements.
 #'   }
 #' @source
@@ -949,7 +951,6 @@
 #'   \item geometry: coordinates giving the shape of the Irving Park community.
 #'   }
 #' @source The data has been modified from the \code{chicago_comm} data set in the \code{geodaData} package. THe original source of the data is from the city of Chicago: \url{https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6}
-#' @references
 "irving_boundary"
 
 #' Moose counts and presence in Alaska, USA
@@ -996,3 +997,17 @@
 #'   \item n_obs: the number of total observations at the location.
 #'   }
 "sim_binomial"
+
+#' Alfalfa Yield
+#'
+#' @description Alfalfa yields measured for a particular harvest in a field located in Saudi Arabia. The data is a modified version of the \code{kayad.alfalfa} data set in the \code{agridat} package.
+#'
+#' @format A \code{sf} object with 2677 rows and 2 columns:
+#'
+#' \itemize{
+#'   \item yield: the alfalfa yield at the location (in tons per acre).
+#'   \item geometry: point-level geometry with a \code{KSA-GRF17 / UTM zone 38N} projection. Distances between locations are in meters.
+#'   }
+#' @references Wright K (2025). _agridat: Agricultural Datasets_. doi:10.32614/CRAN.package.agridat <https://doi.org/10.32614/CRAN.package.agridat>. R package version 1.26, <https://CRAN.R-project.org/package=agridat>.
+#' @source Ahmed G. Kayad, et al. (2016). Assessing the Spatial Variability of Alfalfa Yield Using Satellite Imagery and Ground-Based Data. PLOS One, 11(6). https://doi.org/10.1371/journal.pone.0157166
+"alfalfa"

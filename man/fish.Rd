@@ -3,13 +3,13 @@
 \docType{data}
 \name{fish}
 \alias{fish}
-\title{Fish data. TODO: NEED TO DOCUMENT AND REFERENCE.}
+\title{Fish data.}
 \format{
 An \code{sf} object with 104 rows and 3 columns:
 
 \itemize{
   \item fish_richness: the number of unique species of fish in the stream.
-  \item mean_temp: the average air temperature (ELABORATE: annual?).
+  \item mean_temp: the average annual air temperature, in degrees Celsius.
   \item geometry: a point location of the measurements.
   }
 }
@@ -17,6 +17,8 @@ An \code{sf} object with 104 rows and 3 columns:
 fish
 }
 \description{
-DESCRIBE
+Fish species richness data from a subset of an Environmental
+ Protection Agency National Rivers and Streams Assessment (NRSA) program in
+ the year 2018.
 }
 \keyword{datasets}

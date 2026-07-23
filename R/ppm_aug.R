@@ -9,6 +9,8 @@
 #'
 #' @return a \code{tibble} with columns \itemize{
 #'   \item mark, if \code{ppm_model} is a marked point process model.
+#'    If \code{ppm_model} is not a marked point process model, this will be a column
+#'    with \code{NA} values.
 #'   \item x, a grid of x-coordinates for a range of values in the window from \code{ppm_model}.
 #'   \item y, a grid of y-coordinates for a range of values in the window from \code{ppm_model}.
 #'   \item value, the estimated intensity.
@@ -31,15 +33,25 @@
 
 
 ppm_aug <- function(ppm_model) {
-  marked_preds <- predict(ppm_model) |> as.data.frame() |> tibble()
+  preds <- predict(ppm_model) |> as.data.frame() |> tibble()
 
-  ## AI used for pivot syntax:
-  stationary_long <-  marked_preds |>
-    pivot_longer(
-      everything(),
-      names_to = c("mark", ".value"),
-      names_sep = "\\."
-    )
+  ## AI used for pivot syntax that changes depending on if object has marks:
+  has_marks <- all(grepl("\\.", names(preds)))
+
+  if (has_marks) {
+    stationary_long <- preds |>
+      pivot_longer(
+        everything(),
+        names_to = c("mark", ".value"),
+        names_sep = "\\."
+      )
+  } else {
+    # No mark to pivot out — just tag a constant mark column (or omit it,
+    # depending on what downstream code expects)
+    stationary_long <- preds |>
+      mutate(mark = NA_character_) |>
+      relocate(mark)
+  }
 
   return(stationary_long)
 }

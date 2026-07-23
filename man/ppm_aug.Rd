@@ -13,6 +13,8 @@ ppm_aug(ppm_model)
 \value{
 a \code{tibble} with columns \itemize{
   \item mark, if \code{ppm_model} is a marked point process model.
+   If \code{ppm_model} is not a marked point process model, this will be a column
+   with \code{NA} values.
   \item x, a grid of x-coordinates for a range of values in the window from \code{ppm_model}.
   \item y, a grid of y-coordinates for a range of values in the window from \code{ppm_model}.
   \item value, the estimated intensity.

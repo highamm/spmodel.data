@@ -1010,3 +1010,25 @@
 #' @references Wright K (2025). _agridat: Agricultural Datasets_. doi:10.32614/CRAN.package.agridat <https://doi.org/10.32614/CRAN.package.agridat>. R package version 1.26, <https://CRAN.R-project.org/package=agridat>.
 #' @source Ahmed G. Kayad, et al. (2016). Assessing the Spatial Variability of Alfalfa Yield Using Satellite Imagery and Ground-Based Data. PLOS One, 11(6). https://doi.org/10.1371/journal.pone.0157166
 "alfalfa"
+
+#' Anemone Locations
+#'
+#' @description Sea anemone locations in France. The data is an \code{sf} version of the \code{anemones} data set in the \code{spatstat} package. The observation window of the study area is a [0, 280] x [0, 180] rectangle.
+#'
+#' @format A \code{sf} object with 231 rows and 2 columns:
+#'
+#' \itemize{
+#'   \item diameter: the diameter of the anemone.
+#'   \item geometry: the point locations of the anemones in the study region.
+#'   }
+#' @references
+#' Kooijman, S.A.L.M. (1979a) The description of point patterns. In Spatial and temporal analysis in ecology (ed. R.M. Cormack and J.K. Ord), International Cooperative Publishing House, Fairland, Maryland, USA. Pages 305–332.
+
+#' Kooijman, S.A.L.M. (1979b) Inference about dispersal patterns. Acta Biotheoretica 28, 149–189.
+
+#' Upton, G.J.G. and Fingleton, B. (1985) Spatial data analysis by example. Volume 1: Point pattern and quantitative data. John Wiley and Sons, Chichester.
+
+#' @source Baddeley A, Rubak E, Turner R (2015). _Spatial Point Patterns: Methodology and
+#' Applications with R_. Chapman and Hall/CRC Press, London. ISBN 9781482210200.
+#' <https://www.routledge.com/Spatial-Point-Patterns-Methodology-and-Applications-with-R/Baddeley-Rubak-Turner/p/book/9781482210200/>.
+"anemones_sf"

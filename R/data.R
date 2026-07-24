@@ -1032,3 +1032,34 @@
 #' Applications with R_. Chapman and Hall/CRC Press, London. ISBN 9781482210200.
 #' <https://www.routledge.com/Spatial-Point-Patterns-Methodology-and-Applications-with-R/Baddeley-Rubak-Turner/p/book/9781482210200/>.
 "anemones_sf"
+
+#' Diamond window
+#'
+#' @description This data set contains the observation window on which the locations in the \code{diamond} data set was simulated on.
+#'
+#' @format An \code{sf} object with one row and one column:
+#' \itemize{
+#'   \item geometry: the boundary for the observation window.
+#' }
+"diamond_boundary"
+
+#' Simulated locations
+#'
+#' @description This data set contains simulated locations from a random planar point pattern on a diamond.
+#'
+#' @format An \code{sf} object with 100 rows and 1 column:
+#' \itemize{
+#'   \item geometry: the coordinates for the point.
+#' }
+"diamond"
+
+
+#' Diamond window
+#'
+#' @description This data set contains the observation window on which the locations in the \code{diamond} data set was simulated on.
+#'
+#' @format An \code{sf} object with one row and one column:
+#' \itemize{
+#'   \item geometry: the boundary for the observation window.
+#' }
+"diamond_boundary"

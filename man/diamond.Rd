@@ -5,7 +5,7 @@
 \alias{diamond}
 \title{Simulated locations}
 \format{
-An \code{sf} object with 100 rows and 3 columns:
+An \code{sf} object with 130 rows and 3 columns:
 \itemize{
   \item x_loc: the x-location of the point.
   \item y_loc: the y-location of the point.

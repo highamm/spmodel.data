@@ -1047,8 +1047,10 @@
 #'
 #' @description This data set contains simulated locations from a random planar point pattern on a diamond.
 #'
-#' @format An \code{sf} object with 100 rows and 1 column:
+#' @format An \code{sf} object with 100 rows and 3 columns:
 #' \itemize{
+#'   \item x_loc: the x-location of the point.
+#'   \item y_loc: the y-location of the point.
 #'   \item geometry: the coordinates for the point.
 #' }
 "diamond"

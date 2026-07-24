@@ -1045,7 +1045,7 @@
 
 #' Simulated locations
 #'
-#' @description This data set contains simulated locations from a random planar point pattern on a diamond.
+#' @description The data set contains simulated locations from a random planar point pattern on a diamond.
 #'
 #' @format An \code{sf} object with 100 rows and 3 columns:
 #' \itemize{

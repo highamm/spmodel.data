@@ -16,6 +16,6 @@ An \code{sf} object with 100 rows and 3 columns:
 diamond
 }
 \description{
-This data set contains simulated locations from a random planar point pattern on a diamond.
+The data set contains simulated locations from a random planar point pattern on a diamond.
 }
 \keyword{datasets}

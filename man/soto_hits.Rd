@@ -5,7 +5,7 @@
 \alias{soto_hits}
 \title{Hitting data for Juan Soto in the 2025 season through May.}
 \format{
-A \code{tibble} object with 128 rows and 114 columns:
+A \code{tibble} object with 128 rows and 7 columns:
 
 \itemize{
   \item id: an identification number.
@@ -14,6 +14,7 @@ A \code{tibble} object with 128 rows and 114 columns:
   \item launch_speed: The speed of the ball off of Soto's bat, in miles per hour.
   \item bb_type: A factor representing the type of hit with levels fly_ball, ground_ball, line_drive, and popup.
   \item pitch_type: A factor representing the type of pitch with levels CH (change-up or euphus), CU (curveball or knuckle curve or slurve), FC (fastball cutter), FF (four-seam fastball), FS (splitter), SI (sinker), SL (slider), and ST (sweeping slider).
+  \item release_speed: the speed (in miles per hour) at which the pitch was released.
   }
 }
 \source{

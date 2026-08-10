@@ -5,7 +5,7 @@
 \alias{yamamoto_pitches}
 \title{Pitching data for Yoshinobu Yamamoto in June of 2026 (June 1 through June 25).}
 \format{
-A \code{tibble} object with 304 rows and 120 columns:
+A \code{tibble} object with 304 rows and 7 columns:
 
 \itemize{
   \item id: an identification number.
@@ -15,6 +15,7 @@ A \code{tibble} object with 304 rows and 120 columns:
   \item bb_type: A factor representing the type of hit with levels fly_ball, ground_ball, line_drive, and popup.
   \item pitch_type: A factor representing the type of pitch with levels CU (curveball or knuckle curve or slurve), FC (fastball cutter), FF (four-seam fastball), FS (splitter), SI (sinker), and SL (slider).
   }
+  \item release_speed: the speed (in miles per hour) at which the pitch was released.
 }
 \source{
 Data were obtained for non-commercial use from the statcast search on the baseball savant website \url{https://baseballsavant.mlb.com/statcast_search}. Statcast is maintained by the MLB.

@@ -97,8 +97,9 @@
 #'   \item launch_speed: The speed of the ball off of Clement's bat, in miles per hour.
 #'   \item bb_type: A factor representing the type of hit with levels fly_ball, ground_ball, line_drive, and popup.
 #'   \item pitch_type: A factor representing the type of pitch with levels CU (curveball or knuckle curve or slurve), FC (fastball cutter), FF (four-seam fastball), FS (splitter), SI (sinker), and SL (slider).
-#'   }
 #'   \item release_speed: the speed (in miles per hour) at which the pitch was released.
+#'   }
+
 
 #' @source Data were obtained for non-commercial use from the statcast search on the baseball savant website \url{https://baseballsavant.mlb.com/statcast_search}. Statcast is maintained by the MLB.
 #' @references

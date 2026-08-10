@@ -1065,3 +1065,19 @@
 #'   \item geometry: the boundary for the observation window.
 #' }
 "diamond_boundary"
+
+#' California State Border
+#'
+#' @description State border the state of California
+#'
+#' @format An \code{sf} object with 1 rows and 4 columns:
+#'
+#' \itemize{
+#'   \item NAME: State name.
+#'   \item STUSPS: State postal code.
+#'   \item GEOIDFQ: State identification from the United States Census Bureau.
+#'   \item geometry: \code{POINT} geometry representing coordinates in a NAD83
+#'     projection (EPSG: 5070). Distances between points are in meters.
+#' }
+#' @source
+#' The data source is the United States Census Bureau TIGER/Line Shapefiles.

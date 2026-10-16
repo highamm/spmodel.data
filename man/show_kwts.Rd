@@ -27,6 +27,8 @@ categorical predictors in the model, then all levels must be present
 in \code{pred_data} for the function to run.
 }
 \examples{
+library(tibble)
+library(spmodel)
 clement_hits_pred <- tibble(launch_speed = c(NA, NA, NA),
                             plate_x = c(-1, 0, 1),
                             plate_z = c(3, 3, 3))

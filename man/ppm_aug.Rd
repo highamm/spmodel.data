@@ -28,11 +28,11 @@ point process.
 }
 \examples{
 
-yamamoto_window <- owin(xrange = c(-2, 2), yrange = c(0, 4.75))
-yamamoto_pp <- ppp(x = yamamoto_pitches |> pull(plate_x),
-y = yamamoto_pitches |> pull(plate_z), window = yamamoto_window,
-marks = factor(yamamoto_pitches |> pull(pitch_type)))
+yamamoto_window <- spatstat.geom::owin(xrange = c(-2, 2), yrange = c(0, 4.75))
+yamamoto_pp <- spatstat.geom::ppp(x = yamamoto_pitches |> dplyr::pull(plate_x),
+y = yamamoto_pitches |> dplyr::pull(plate_z), window = yamamoto_window,
+marks = factor(yamamoto_pitches |> dplyr::pull(pitch_type)))
 
-yamamoto_marked <- ppm(yamamoto_pp, ~ marks)
+yamamoto_marked <- spatstat.model::ppm(yamamoto_pp, ~ marks)
 ppm_aug(yamamoto_marked)
 }

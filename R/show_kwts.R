@@ -13,6 +13,8 @@
 #'
 #' @return A map of the weights for the particular row (\code{index}) we are predicting for.
 #' @examples
+#' library(tibble)
+#' library(spmodel)
 #' clement_hits_pred <- tibble(launch_speed = c(NA, NA, NA),
 #'                             plate_x = c(-1, 0, 1),
 #'                             plate_z = c(3, 3, 3))

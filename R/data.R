@@ -231,7 +231,7 @@
 #'   \item geometry: the point coordinates (centroids) of the county or city district.
 #'   }
 
-#' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
+#' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} from the MIT Election Data and Science Lab and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
 "va_turnout"
 
 
@@ -349,7 +349,7 @@
 #'   \item geometry: information giving the polygonal shape of the county or city district.
 #'   }
 
-#' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
+#' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} from the MIT Election Data and Science Lab and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
 "va_turnout_poly"
 
 #' Voter Turnout in 2012 in Pennsylvania, United States.
@@ -372,7 +372,7 @@
 #'   \item rural_pct: the percentage of the population that lives in a rural area (in percentage points).
 #'   \item geometry: information giving the polygonal shape of the county or city district.
 #'   }
-#' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
+#' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} from the MIT Election Data and Science Lab and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
 "pa_turnout"
 
 #' Voter Turnout in 2012 in Pennsylvania, United States.
@@ -395,7 +395,7 @@
 #'   \item rural_pct: the percentage of the population that lives in a rural area (in percentage points).
 #'   \item geometry: information giving the polygonal shape of the county or city district.
 #'   }
-#' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
+#' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} from the MIT Election Data and Science Lab and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
 "pa_turnout_poly"
 
 #' Guerry Social Science Data in France
@@ -1085,3 +1085,27 @@
 #' }
 #' @source
 #' The data source is the United States Census Bureau TIGER/Line Shapefiles.
+#' @references Walker K (2025). _tigris: Load Census TIGER/Line Shapefiles_.
+#' doi:10.32614/CRAN.package.tigris <https://doi.org/10.32614/CRAN.package.tigris>. R
+#' package version 2.2.1, <https://CRAN.R-project.org/package=tigris>.
+"california_line"
+
+#' Lakes State Border
+#'
+#' @description State borders for the states in the \code{lake} data set from \code{spmodel}. The states included are \code{"NV", "AZ", "UT", "CO"}.
+#'
+#' @format An \code{sf} object with 4 rows and 4 columns:
+#'
+#' \itemize{
+#'   \item NAME: State name.
+#'   \item STUSPS: State postal code.
+#'   \item GEOIDFQ: State identification from the United States Census Bureau.
+#'   \item geometry: \code{POINT} geometry representing coordinates in a NAD83
+#'     projection (EPSG: 5070). Distances between points are in meters.
+#' }
+#' @source
+#' The data source is the United States Census Bureau TIGER/Line Shapefiles.
+#' @references Walker K (2025). _tigris: Load Census TIGER/Line Shapefiles_.
+#' doi:10.32614/CRAN.package.tigris <https://doi.org/10.32614/CRAN.package.tigris>. R
+#' package version 2.2.1, <https://CRAN.R-project.org/package=tigris>.
+"lake_boundary"

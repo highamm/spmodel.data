@@ -23,7 +23,7 @@ An \code{sf} object with an \code{NAD83 / Conus Albers} polygonal projection wit
   }
 }
 \source{
-Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
+Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} from the MIT Election Data and Science Lab and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
 }
 \usage{
 pa_turnout_poly

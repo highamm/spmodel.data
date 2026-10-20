@@ -285,7 +285,7 @@
 #'   \item geometry: point-level geometry of the locations.
 #'   }
 
-#' @source Data were modified from the \code{spDataLarge} \code{R} package and the \code{RSAGA} \code{R} package. The data are used in the "Statistical learning for geographic data" chapter of the Geocomputation with R book (\link{https://r.geocompx.org/spatial-cv.html}. The data appear in the published works listed in the references below.
+#' @source Data were modified from the \code{spDataLarge} \code{R} package and the \code{RSAGA} \code{R} package. The data are used in the "Statistical learning for geographic data" chapter of the Geocomputation with R book (\url{https://r.geocompx.org/spatial-cv.html}. The data appear in the published works listed in the references below.
 #' @references
 #' Muenchow, J., Brenning, A., Richter, R. (2012): Geomorphic process rates of landslides along a humidity gradient in the tropical Andes, Geomorphology 139-140, 271-284. DOI: 10.1016/j.geomorph.2011.10.029.
 #' Stoyan, R. (2000): Aktivitaet, Ursachen und Klassifikation der Rutschungen in San Francisco/Suedecuador. Unpublished diploma thesis, University of Erlangen-Nuremberg, Germany.
@@ -307,7 +307,7 @@
 #'   \item rally_id: an identification number for the rally (not used here).
 #'   }
 
-#' @source Data were modified from Kaggle at \link{https://www.kaggle.com/datasets/cakesofspan/pklmarts-competitive-pickleball-extracts/data?select=shot.csv}. The Kaggle data was originally obtained from the \code{pklmart} \code{Python} package.
+#' @source Data were modified from Kaggle at \url{https://www.kaggle.com/datasets/cakesofspan/pklmarts-competitive-pickleball-extracts/data?select=shot.csv}. The Kaggle data was originally obtained from the \code{pklmart} \code{Python} package.
 #' @references
 #' Gupta, S. S. (2023). pklmart: A Python package for competitive pickleball data analysis.
 "pickleball"
@@ -323,7 +323,7 @@
 #'   \item loc_y: the y-coordinate of where the player is standing when the shot is made.
 #'   }
 
-#' @source Data were modified from Kaggle at \link{https://www.kaggle.com/datasets/cakesofspan/pklmarts-competitive-pickleball-extracts/data?select=shot.csv}. The Kaggle data was originally obtained from the \code{pklmart} \code{Python} package.
+#' @source Data were modified from Kaggle at \url{https://www.kaggle.com/datasets/cakesofspan/pklmarts-competitive-pickleball-extracts/data?select=shot.csv}. The Kaggle data was originally obtained from the \code{pklmart} \code{Python} package.
 #' @references
 #' Gupta, S. S. (2023). pklmart: A Python package for competitive pickleball data analysis.
 "pickleball_preds"

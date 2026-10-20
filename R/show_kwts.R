@@ -34,6 +34,7 @@
 #' @import tibble
 #' @import ggplot2
 #' @import spmodel
+#' @import stats
 #' @export show_kwts
 
 show_kwts <- function(model, og_data, pred_data, index, type = "full") {

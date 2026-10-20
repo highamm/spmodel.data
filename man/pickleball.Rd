@@ -17,7 +17,7 @@ A \code{tibble} object with 110 rows and 6 columns:
   }
 }
 \source{
-Data were modified from Kaggle at \link{https://www.kaggle.com/datasets/cakesofspan/pklmarts-competitive-pickleball-extracts/data?select=shot.csv}. The Kaggle data was originally obtained from the \code{pklmart} \code{Python} package.
+Data were modified from Kaggle at \url{https://www.kaggle.com/datasets/cakesofspan/pklmarts-competitive-pickleball-extracts/data?select=shot.csv}. The Kaggle data was originally obtained from the \code{pklmart} \code{Python} package.
 }
 \usage{
 pickleball

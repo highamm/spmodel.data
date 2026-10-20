@@ -19,7 +19,7 @@ An \code{sf} object with an \code{WGS 84 / UTM zone 17S} point projection with 3
   }
 }
 \source{
-Data were modified from the \code{spDataLarge} \code{R} package and the \code{RSAGA} \code{R} package. The data are used in the "Statistical learning for geographic data" chapter of the Geocomputation with R book (\link{https://r.geocompx.org/spatial-cv.html}. The data appear in the published works listed in the references below.
+Data were modified from the \code{spDataLarge} \code{R} package and the \code{RSAGA} \code{R} package. The data are used in the "Statistical learning for geographic data" chapter of the Geocomputation with R book (\url{https://r.geocompx.org/spatial-cv.html}. The data appear in the published works listed in the references below.
 }
 \usage{
 landslides

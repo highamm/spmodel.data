@@ -3,7 +3,7 @@
 \docType{data}
 \name{ohio_cancer_point}
 \alias{ohio_cancer_point}
-\title{Lung Cancer in Ohio}
+\title{Lung Cancer Cases in Ohio Counties (point).}
 \format{
 An \code{sf} object with \code{POINT} geometry on a \code{WGS 84 / UTM zone 17N} Projected coordinate reference system. Each point corresponds to a county centroid. The data has 528 rows, each corresponding to a county-gender-year combination and 7 columns:
 

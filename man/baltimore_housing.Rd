@@ -3,7 +3,7 @@
 \docType{data}
 \name{baltimore_housing}
 \alias{baltimore_housing}
-\title{Sale prices for homes in Baltimore, Maryland in 1978.}
+\title{Sale Prices for Homes in Baltimore, Maryland in 1978 (sf).}
 \format{
 An \code{sf} object with an unknown projection and 211 rows and 16 columns:
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{clement_swings}
 \alias{clement_swings}
-\title{Swing data for Ernie Clement in the 2025 season through the end of June.}
+\title{Swing Data for Ernie Clement in the 2025 Season through the End of June.}
 \format{
 A \code{tibble} object with 616 rows and 119 columns:
 

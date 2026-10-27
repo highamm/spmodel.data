@@ -3,7 +3,7 @@
 \docType{data}
 \name{pickleball_preds}
 \alias{pickleball_preds}
-\title{Pickleball prediction locations for a professional women's player.}
+\title{Pickleball Prediction Locations for a Professional Women's Player.}
 \format{
 A \code{tibble} object with 4 rows and 2 columns:
 

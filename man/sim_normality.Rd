@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_normality}
 \alias{sim_normality}
-\title{Normality Data}
+\title{Simulated Data for Normality Condition Illustration.}
 \format{
 A \code{tibble} object with 200 rows and 3 columns:
 

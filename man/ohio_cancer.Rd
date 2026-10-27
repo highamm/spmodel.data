@@ -3,7 +3,7 @@
 \docType{data}
 \name{ohio_cancer}
 \alias{ohio_cancer}
-\title{Lung Cancer in Ohio}
+\title{Lung Cancer Cases in Ohio Counties (polygon).}
 \format{
 An \code{sf} object with \code{POLYGON} geometry on a \code{WGS 84 / UTM zone 17N} Projected coordinate reference system. The data has 528 rows, each corresponding to a county-gender-year combination and 7 columns:
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_preferential}
 \alias{sim_preferential}
-\title{Preferential Sampling Data}
+\title{Simulated Data for Preferential Sampling Illustration.}
 \format{
 A \code{tibble} object with 200 rows and 4 columns:
 

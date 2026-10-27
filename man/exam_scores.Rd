@@ -3,7 +3,7 @@
 \docType{data}
 \name{exam_scores}
 \alias{exam_scores}
-\title{Exam Scores}
+\title{Economics Exam Scores.}
 \format{
 A \code{tibble} object with 186 rows and 17 columns:
 

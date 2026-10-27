@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_r2}
 \alias{sim_r2}
-\title{R-squared Flaw}
+\title{Simulation to Show Flaw with R-Squared.}
 \format{
 A \code{tibble} object with 400 rows and 4 columns:
 

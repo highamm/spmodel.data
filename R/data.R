@@ -1,4 +1,4 @@
-#' Hitting data for Juan Soto in the 2025 season through May.
+#' Hitting Data for Juan Soto in the 2025 Season through May.
 #'
 #' @description Juan Soto's hitting data for each hit that was put into the field of play (whether or not the result of the play was an out).
 #'
@@ -19,7 +19,7 @@
 #' MLB Advanced Media. (2025). Baseball Savant: Statcast search [Juan Soto]. Baseball Savant.
 "soto_hits"
 
-#' Hitting data for Ernie Clement in the 2025 season through the end of June.
+#' Hitting Data for Ernie Clement in the 2025 Season through the End of June.
 #'
 #' @description Ernie Clement's hitting data for each hit that was put into the field of play (whether or not the result of the play was an out).
 #'
@@ -40,7 +40,7 @@
 #' MLB Advanced Media. (2025). Baseball Savant: Statcast search [Ernie Clement]. Baseball Savant.
 "clement_hits"
 
-#' Swing data for Ernie Clement in the 2025 season through the end of June.
+#' Swing Data for Ernie Clement in the 2025 Season through the End of June.
 #'
 #' @description Ernie Clement's swing data for each swing that he took. The result of
 #' each swing was either a ball put into the field of play (whether or not the result
@@ -61,7 +61,7 @@
 #' MLB Advanced Media. (2025). Baseball Savant: Statcast search [Ernie Clement]. Baseball Savant.
 "clement_swings"
 
-#' Data on high schools in Ohio (United States).
+#' Data on High Schools in Ohio (United States).
 #'
 #' @description Student-to-faculty ratio data for high schools at point locations in Ohio given as X and Y coordinates for the 2022-2023 school year.
 #'
@@ -84,7 +84,7 @@
 #' National Center for Education Statistics. (accessed 2025). \url{https://catalog.data.gov/dataset/public-school-characteristics-2022-23-451db}.
 "oh_high"
 
-#' Pitching data for Yoshinobu Yamamoto in June of 2026 (June 1 through June 25).
+#' Pitching Data for Yoshinobu Yamamoto in June of 2026 (June 1 through June 25).
 #'
 #' @description Yoshinobu Yamamoto's pitching data for each pitch he threw from June 1 through June 25 in the 2026 season.
 #'
@@ -107,7 +107,7 @@
 "yamamoto_pitches"
 
 
-#' Data on high schools in Indiana (United States).
+#' Data on High Schools in Indiana (United States).
 #'
 #' @description Student-to-faculty ratio data for high schools at point locations in Indiana given as X and Y coordinates for the 2022-2023 school year.
 #'
@@ -128,7 +128,7 @@
 "in_high"
 
 
-#' Sale prices for homes in Baltimore, Maryland in 1978.
+#' Sale Prices for Homes in Baltimore, Maryland in 1978 (sf).
 #'
 #' @description Data collected is on home prices and home characteristics for a particular area of Baltimore in the late 1970's. This is an identical data set to \code{baltimore_housing_df} except this data is an \code{sf} object.
 #'
@@ -159,7 +159,7 @@
 #' Dubin, Robin A. (1992). Spatial autocorrelation and neighborhood quality. Regional Science and Urban Economics 22(3), 433-452.
 "baltimore_housing"
 
-#' Sale prices for homes in Baltimore, Maryland in 1978.
+#' Sale Prices for Homes in Baltimore, Maryland in 1978 (tibble).
 #'
 #' @description Data collected is on home prices and home characteristics for a particular area of Baltimore in the late 1970's. This is an identical data set to \code{baltimore_housing} except this data set contains spatial coordinates as explicit \code{X} and \code{Y} columns.
 #'
@@ -191,7 +191,7 @@
 #' Dubin, Robin A. (1992). Spatial autocorrelation and neighborhood quality. Regional Science and Urban Economics 22(3), 433-452.
 "baltimore_housing_df"
 
-#' Ozone pollution in California, United States.
+#' Ozone Pollution in California, United States.
 #'
 #' @description Data collected through air pollution monitors on atmospheric ozone throughout the state of California on April 1, 2025.
 #'
@@ -235,7 +235,7 @@
 "va_turnout"
 
 
-#' Home price data in Northampton, Massachussetts, United States.
+#' Home Price Data in Northampton, Massachussetts, United States.
 #'
 #' @description Characteristics of homes near a rail trail network in an area of Northampton, Massachussetts in 2014.
 #'
@@ -268,7 +268,7 @@
 #' "Rail Trails and Property Values: Is There an Association?", Ella Hartenian, Smith College and Nicholas J. Horton, Amherst College.
 "rails_trails"
 
-#' Landslide data from Southern Ecuador.
+#' Landslide Data from Southern Ecuador.
 #'
 #' @description Data on landslides in a region of Ecuador.
 #'
@@ -292,7 +292,7 @@
 "landslides"
 
 
-#' Pickleball shot data for a professional women's player.
+#' Pickleball Shot Data for a Professional Women's Player.
 #'
 #' @description Data on pickleball shots made by a professional women's player for their "third shot in a rally" ball. Coordinates are where this player is making the shot from (not where her ball is landing on the other side of the net).
 #'
@@ -312,7 +312,7 @@
 #' Gupta, S. S. (2023). pklmart: A Python package for competitive pickleball data analysis.
 "pickleball"
 
-#' Pickleball prediction locations for a professional women's player.
+#' Pickleball Prediction Locations for a Professional Women's Player.
 #'
 #' @description Data containing locations for which we would like to predict if a particular player is going to hit a drop shot or a drive shot for her "third shot in a rally" ball. Coordinates are where this player is going to make the shot from (not where her ball is landing on the other side of the net).
 #'
@@ -398,9 +398,9 @@
 #' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} from the MIT Election Data and Science Lab and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
 "pa_turnout_poly"
 
-#' Guerry Social Science Data in France
+#' Guerry Social Science Data in 1830's France.
 #'
-#' @description Department-level social science data in France in the 1830s, collected by Andre-Michel Guerry. Each row corresponds to a particular department (region) in the country of France.
+#' @description Department-level social science data in France in the 1830's, collected by Andre-Michel Guerry. Each row corresponds to a particular department (region) in the country of France.
 #'
 #' @format An \code{sf} object with an \code{NTF (Paris) / Lambert zone II} polygonal projection with 85 rows and 14 columns:
 #'
@@ -425,7 +425,7 @@
 #' Guerry, A.-M. (1833). Essai sur la statistique morale de la France Paris: Crochard. English translation: Hugh P. Whitt and Victor W. Reinking, Lewiston, N.Y. : Edwin Mellen Press, 2002.
 "guerry_sf"
 
-#' Lung Cancer in Ohio
+#' Lung Cancer Cases in Ohio Counties (polygon).
 #'
 #' @description Data on lung cancer cases in counties in the state of Ohio in the 1960's through the 1980's.
 #'
@@ -444,7 +444,7 @@
 #' @source Data were modified from the \code{ohio_lung} data set in the \code{geodaData} \code{R} package.
 "ohio_cancer"
 
-#' Lung Cancer in Ohio
+#' Lung Cancer Cases in Ohio Counties (point).
 #'
 #' @description Data on lung cancer cases in counties in the state of Ohio in the 1960's through the 1980's.
 #'
@@ -463,7 +463,7 @@
 #' @source Data were modified from the \code{ohio_lung} data set in the from the \code{geodaData} \code{R} package.
 "ohio_cancer_point"
 
-#' Forests in Washington State
+#' Forests in Washington State.
 #'
 #' @description Environmental variables collected on plots in the state of Washington from 2020 to 2022.
 #'
@@ -494,7 +494,7 @@
 #' Frescino, Tracey S.; Moisen, Gretchen G.; Patterson, Paul L.; Toney, Chris; White, Grayson W. (2023). FIESTA: A forest inventory estimation and analysis R package. Ecography 2023: e06428 (ver. 1.0).
 "forest_wa"
 
-#' Oak Trees in Portland Parks
+#' Oak Trees in Portland Parks (sf).
 #'
 #' @description Oak tree characteristics measured on trees throughout the city parks of Portland in 2017. This data set is identical to \code{pdx_trees_df} except that this is an \code{sf} object.
 #'
@@ -520,7 +520,7 @@
 #' The data were originally collected by the Portland Parks and Recreation's Urban Forestry Tree Inventory Project (\url{https://www.portland.gov/trees/get-involved/tree-inventory}).
 "pdx_oaks"
 
-#' Oak Trees in Portland Parks
+#' Oak Trees in Portland Parks (tibble).
 #'
 #' @description Oak tree characteristics measured on trees throughout the city parks of Portland in 2017. This data set is identical to \code{pdx_trees} except that this is data set is a \code{tibble} with projected coordinates contained in explicit \code{X} and \code{Y} columns.
 #'
@@ -547,7 +547,7 @@
 #' The data were originally collected by the Portland Parks and Recreation's Urban Forestry Tree Inventory Project (\url{https://www.portland.gov/trees/get-involved/tree-inventory}).
 "pdx_oaks_df"
 
-#' Exam Scores
+#' Economics Exam Scores.
 #'
 #' @description Exam scores for an economics exam in a course at a large Midwest institution. Bergtold et al. (2019) investigated whether seating preference had any impact on student exam performance, among other questions. The data here corresponds to the first exam in an economics course for one of their study years, 2010. Each row corresponds to a particular student.
 #'
@@ -571,7 +571,7 @@
 #' Bergtold, J. S., Yeager, E. A., & Griffin, T. W. (2019). Spatial dynamics in the classroom: Does seating choice matter?. Plos one, 14(12), e0226953.
 "exam_scores"
 
-#' Mean Error Structure
+#' Simulated Data for Mean Error Structure Illustration.
 #'
 #' @description A simulated data set designed to show how the mean structure and
 #' error structure of a model are intertwined.
@@ -588,7 +588,7 @@
 #'   }
 "sim_mean_error"
 
-#' Mean Error Structure
+#' Simulated Data for Mean Error Structure Illustration (p2).
 #'
 #' @description A second simulated data set designed to show how the mean structure and
 #' error structure of a model are intertwined.
@@ -607,7 +607,7 @@
 #'   }
 "sim_mean_error_2"
 
-#' Stationarity Data
+#' Simulated Data for Stationarity Illustration.
 #'
 #' @description A simulated data set designed to show why we cannot use raw residuals
 #' to evaluate the constant variance piece of the stationarity assumption.
@@ -629,7 +629,7 @@
 #'   }
 "sim_stationarity"
 
-#' Normality Data
+#' Simulated Data for Normality Condition Illustration.
 #'
 #' @description A simulated data set designed to show why we cannot use a histogram
 #' of the response variable or a histogram of the raw residuals
@@ -651,7 +651,7 @@
 #'   }
 "sim_normality"
 
-#' Linearity Data
+#' Simulated Data for Linearity Illustration.
 #'
 #' @description A simulated data set designed to show that the linearity assumption
 #' can hold in a spatial model even if a scatterplot between the
@@ -673,7 +673,7 @@
 #'   }
 "sim_linearity"
 
-#' Leverage Data
+#' Simulated Data for Spatial Leverage Illustration.
 #'
 #' @description A simulated data set designed to show how spatial leverage can be
 #' different than leverage in a model with independent random
@@ -692,7 +692,7 @@
 #'   }
 "sim_leverage"
 
-#' Outlier Data
+#' Simulated Data for Spatial Outliers Illustration.
 #'
 #' @description A simulated data set designed to show how spatial outliers can be
 #' different than outliers in a model with independent random
@@ -710,7 +710,7 @@
 #'   }
 "sim_outlier"
 
-#' Preferential Sampling Data
+#' Simulated Data for Preferential Sampling Illustration.
 #'
 #' @description A simulated data set designed to show consequences of
 #' preferential sampling. This simulated data is a set of 200
@@ -726,7 +726,7 @@
 #'   }
 "sim_preferential"
 
-#' Assessing Stationarity
+#' Simualted Data for Assessing Stationarity.
 #'
 #' @description A simulated data set designed to show how the stationarity assumption
 #' can be fully assessed with a very large data set.
@@ -741,7 +741,7 @@
 #'   }
 "sim_quadrants"
 
-#' Non-stationary Data
+#' Simulated Data to Show a Non-stationary Example.
 #'
 #' @description A simulated data set designed to show clear evidence of
 #' non-stationarity. This simulated data is a set of 400
@@ -758,7 +758,7 @@
 #'   }
 "sim_nonstationary"
 
-#' Non-stationary Data
+#' Simulated Data to Show a Non-stationary Example (p2).
 #'
 #' @description A simulated data set designed to show clear evidence of
 #' non-stationarity. This simulated data is a set of 1000
@@ -775,7 +775,7 @@
 #'   }
 "sim_nonstationary_2"
 
-#' R-squared Flaw
+#' Simulation to Show Flaw with R-Squared.
 #'
 #' @description A simulated data set designed to show a flaw with r-squared as a model
 #' comparison tool. This simulated data is a set of 400
@@ -793,7 +793,7 @@
 #'   }
 "sim_r2"
 
-#' National Wetland Condition Assessment (NWCA) 2016 Data
+#' National Wetland Condition Assessment (NWCA) 2016 Data.
 #'
 #' @description A subset of data from USEPA's 2016 National Wetland Condition Assessment survey. The response variable is a vegetation index: a larger number corresponds to more vegetation. The data was modified from a data set used in a paper given in references.
 #'
@@ -812,7 +812,7 @@
 #' Dumelle, Michael, Rob Trangucci, Amanda M. Nahlik, Anthony R. Olsen, Kathryn M. Irvine, Karen Blocksom, Jay M. Ver Hoef, and Claudio Fuentes (2025). Missing data in ecology: Syntheses, clarifications, and considerations. Ecological Monographs, 95(4), e70037.
 "wetlands"
 
-#' National Wetland Condition Assessment (NWCA) 2016 Prediction Data
+#' National Wetland Condition Assessment (NWCA) 2016 Prediction Data.
 #'
 #' @description Wetlands locations for which we would like to predict vegetation index from wetland type and soil hardening predictor variables (as well as spatial patterning).
 #'
@@ -830,7 +830,7 @@
 #' Dumelle, Michael, Rob Trangucci, Amanda M. Nahlik, Anthony R. Olsen, Kathryn M. Irvine, Karen Blocksom, Jay M. Ver Hoef, and Claudio Fuentes (2025). Missing data in ecology: Syntheses, clarifications, and considerations. Ecological Monographs, 95(4), e70037.
 "wetlands_preds"
 
-#' Poisson Data Positive Slope
+#' Simulated Data to Help Interpret Poisson Regression Model.
 #'
 #' @description A simulated data set designed to provide visualizations for
 #'  interpreting the estimated slope in a basic poisson regression model.
@@ -845,7 +845,7 @@
 #'   }
 "sim_poisson_pos"
 
-#' Poisson Data Negative Slope
+#' Simulated Data to Help Interpret Poisson Regression Model (p2).
 #'
 #' @description A simulated data set designed to provide visualizations for
 #'  interpreting the estimated slope in a basic poisson regression model.
@@ -861,7 +861,7 @@
 "sim_poisson_neg"
 
 
-#' Kakaralli trees in plot 6 of the Paracou research station in French Guiana.
+#' Kakaralli Trees in Plot 6 of the Paracou Research Station in French Guiana.
 #'
 #' @description Point locations of Eschweilera sagotiana (common name Kakaralli) obtained from the \code{Paracou6_2016} data set in the \code{vernabota} \code{R} package. The plot dimensions are 250 by 250 (in meters).
 #'
@@ -883,7 +883,7 @@
 #' 532ff109542829aec1bbf75353260aa4c4c7db57, <https://github.com/EcoFoG/vernabota>.
 "kakaralli"
 
-#' Acapori trees in plot 6 of the Paracou research station in French Guiana.
+#' Acapori Trees in Plot 6 of the Paracou Research Station in French Guiana.
 #'
 #' @description Point locations of Pogonophora schomburgkiana (common name Acapori) obtained from the \code{Paracou6_2016} data set in the \code{vernabota} \code{R} package. The plot dimensions are 250 by 250 (in meters).
 #'
@@ -905,7 +905,7 @@
 #' 532ff109542829aec1bbf75353260aa4c4c7db57, <https://github.com/EcoFoG/vernabota>.
 "acapori"
 
-#' Fish data.
+#' Fish Richness in Rivers and Streams in 2018 in U.S.
 #'
 #' @description Fish species richness data from a subset of an Environmental
 #'  Protection Agency National Rivers and Streams Assessment (NRSA) program in
@@ -921,7 +921,7 @@
 #' @references Nahlik, A. M., Paulsen, S. G., Dumelle, M., Holdsworth, S., Lehmann, S., Tulve, N. S., ... & Frey, H. C. (2025). National Aquatic Resource Surveys (NARS): the foundation for long-term aquatic monitoring data across the United States. Environmental Monitoring and Assessment, 197(12), 1291.
 "fish"
 
-#' Point locations of abandoned vehicles.
+#' Point Locations of Abandoned Vehicles in Irving Park, Chicago.
 #'
 #' @description Locations of abandoned vehicles in the Irving Park area of Chicago in September of 2016. Duplicates for locations that had more than one registered abandoned vehicle during this month have been dropped.
 #'
@@ -943,7 +943,7 @@
 #' Li A (2020). _geodaData: Spatial Analysis Datasets for Teaching_. doi:10.32614/CRAN.package.geodaData <https://doi.org/10.32614/CRAN.package.geodaData>. R package version 0.1.0, <https://CRAN.R-project.org/package=geodaData>.
 "irving_vehicles"
 
-#' Polygonal boundary for Irving Park.
+#' Polygonal Boundary for Irving Park.
 #'
 #' @description Contains the polygonal shape of the Irving Park area in the city of Chicago.
 #'
@@ -956,7 +956,7 @@
 #' @source The data has been modified from the \code{chicago_comm} data set in the \code{geodaData} package. THe original source of the data is from the city of Chicago: \url{https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6}
 "irving_boundary"
 
-#' Moose counts and presence in Alaska, USA
+#' Moose Counts and Presence in Alaska, U.S.
 #'
 #' @description Moose counts and presence in Alaska, USA. Unlike the \code{moose} \code{sf} object, \code{moose_boundaries} has polygonal geometry and contains the boundaries. However, for privacy reasons, the coordinates for these boundaries do not correspond to the exact locations: they are shifted and scaled. Additionally, the data set contains locations at which moose were not sampled.
 #'
@@ -974,7 +974,7 @@
 #'   this data set under the CC0 license.
 "moose_boundaries"
 
-#' Toy polygons
+#' Toy Polygons for an Autoregressive Model Exercise.
 #'
 #' @description This data set contains toy rectangular polygons for use in a conceptual exercise.
 #'
@@ -985,7 +985,7 @@
 #' }
 "toy_polygon"
 
-#' Binomial Data
+#' Simulated Data to Fit a Spatial Binomial Model.
 #'
 #' @description A simulated data set designed to show how to fit a binomial spatial model to a data.
 #'
@@ -1001,7 +1001,7 @@
 #'   }
 "sim_binomial"
 
-#' Alfalfa Yield
+#' Alfalfa Yield in Saudi Arabia.
 #'
 #' @description Alfalfa yields measured for a particular harvest in a field located in Saudi Arabia. The data is a modified version of the \code{kayad.alfalfa} data set in the \code{agridat} package.
 #'
@@ -1015,7 +1015,7 @@
 #' @source Ahmed G. Kayad, et al. (2016). Assessing the Spatial Variability of Alfalfa Yield Using Satellite Imagery and Ground-Based Data. PLOS One, 11(6). https://doi.org/10.1371/journal.pone.0157166
 "alfalfa"
 
-#' Anemone Locations
+#' Anemone Locations in France.
 #'
 #' @description Sea anemone locations in France. The data is an \code{sf} version of the \code{anemones} data set in the \code{spatstat} package. The observation window of the study area is a [0, 280] x [0, 180] rectangle.
 #'
@@ -1037,7 +1037,7 @@
 #' <https://www.routledge.com/Spatial-Point-Patterns-Methodology-and-Applications-with-R/Baddeley-Rubak-Turner/p/book/9781482210200/>.
 "anemones_sf"
 
-#' Diamond window
+#' Observation Window that is a Diamond Shape.
 #'
 #' @description This data set contains the observation window on which the locations in the \code{diamond} data set was simulated on.
 #'
@@ -1047,7 +1047,7 @@
 #' }
 "diamond_boundary"
 
-#' Simulated locations
+#' Simulated Locations Corresponding to a Random Planar Point Pattern.
 #'
 #' @description The data set contains simulated locations from a random planar point pattern on a diamond.
 #'
@@ -1060,17 +1060,7 @@
 "diamond"
 
 
-#' Diamond window
-#'
-#' @description This data set contains the observation window on which the locations in the \code{diamond} data set was simulated on.
-#'
-#' @format An \code{sf} object with one row and one column:
-#' \itemize{
-#'   \item geometry: the boundary for the observation window.
-#' }
-"diamond_boundary"
-
-#' California State Border
+#' California State Border.
 #'
 #' @description State border the state of California
 #'
@@ -1090,7 +1080,7 @@
 #' package version 2.2.1, <https://CRAN.R-project.org/package=tigris>.
 "california_line"
 
-#' Lakes State Border
+#' Lakes State Border.
 #'
 #' @description State borders for the states in the \code{lake} data set from \code{spmodel}. The states included are \code{"NV", "AZ", "UT", "CO"}.
 #'

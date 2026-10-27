@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_leverage}
 \alias{sim_leverage}
-\title{Leverage Data}
+\title{Simulated Data for Spatial Leverage Illustration.}
 \format{
 A \code{tibble} object with 200 rows and 3 columns:
 

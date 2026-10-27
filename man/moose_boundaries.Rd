@@ -3,7 +3,7 @@
 \docType{data}
 \name{moose_boundaries}
 \alias{moose_boundaries}
-\title{Moose counts and presence in Alaska, USA}
+\title{Moose Counts and Presence in Alaska, U.S.}
 \format{
 An \code{sf} object with 1260 rows and 5 columns.
 \itemize{

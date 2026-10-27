@@ -3,7 +3,7 @@
 \docType{data}
 \name{pickleball}
 \alias{pickleball}
-\title{Pickleball shot data for a professional women's player.}
+\title{Pickleball Shot Data for a Professional Women's Player.}
 \format{
 A \code{tibble} object with 110 rows and 6 columns:
 

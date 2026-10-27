@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_outlier}
 \alias{sim_outlier}
-\title{Outlier Data}
+\title{Simulated Data for Spatial Outliers Illustration.}
 \format{
 A \code{tibble} object with 200 rows and 3 columns:
 

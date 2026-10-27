@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_linearity}
 \alias{sim_linearity}
-\title{Linearity Data}
+\title{Simulated Data for Linearity Illustration.}
 \format{
 A \code{tibble} object with 200 rows and 3 columns:
 

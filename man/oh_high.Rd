@@ -3,7 +3,7 @@
 \docType{data}
 \name{oh_high}
 \alias{oh_high}
-\title{Data on high schools in Ohio (United States).}
+\title{Data on High Schools in Ohio (United States).}
 \format{
 A \code{tibble} object with 522 rows and 7 columns:
 

@@ -1,0 +1,97 @@
+---
+title: "Dataset Information"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Dataset Information}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+The following table shows the non-simulated data sets in this package, along with a short description and the use-case of the data sets. These data sets are used the textbook _Foundations of Spatial Statistics_ (working title) by Matt Higham and Michael Dumelle (Taylor & Francis CRC Press, August 2027).
+
+For any data sets used, please cite the original source of the data (found in `Source` and/or `References` in at the bottom of the help page `?name_of_data_set`). Thank you in advance for giving proper credit to those who have collected and/or curated this data!
+
+Many of these data sets can be analyzed using functions from the `spmodel` `R` package: <https://usepa.github.io/spmodel/> (citation below).
+
+Dumelle M, Higham M, Ver Hoef JM (2023). `spmodel`: Spatial statistical modeling and prediction in R. _PLOS ONE_ 18(3): e0282524. <https://doi.org/10.1371/journal.pone.0282524>.
+
+<br>
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  echo = FALSE,
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "#>"
+)
+```
+
+```{r}
+library(spmodel.data)
+library(tidyverse)
+library(spmodel)
+```
+
+```{r}
+items <- data(package = "spmodel.data")$results
+data_sets <- tibble(name = items[, c("Item")],
+                    title = items[ ,c("Title")])
+simulated_data_sets <- data_sets |> filter(str_detect(name, "sim_") | name == "diamond")
+
+borders <- data_sets |> filter(name %in% c("california_line", "diamond_boundary",
+                                           "irving_boundary", "lake_boundary",
+                                           "toy_polygon"))
+
+real_data <- data_sets |> anti_join(simulated_data_sets) |>
+  anti_join(borders) 
+
+datasets <- tribble(
+  ~dataset,               ~purpose,
+  "acapori",              "Point Patterns",
+  "alfalfa",              "Geostatistics (Normal Errors)",
+  "anemones_sf",          "Point Patterns",
+  "baltimore_housing",    "Geostatistics (Normal Errors)",
+  "baltimore_housing_df", "Geostatistics (Normal Errors)",
+  "clement_hits",         "Geostatistics (Normal Errors)",
+  "clement_swings",       "Spatial Logistic",
+  "exam_scores",          "Geostatistics (Normal Errors)",
+  "fish",                 "Spatial Poisson/NBinom",
+  "forest_wa",            "Spatial Logistic",
+  "full_turnout",         "Geostatistics (Big Data)",
+  "guerry_sf",            "Autoregressive",
+  "in_high",              "Geostatistics (Normal Errors)",
+  "irving_vehicles",      "Point Patterns",
+  "kakaralli",            "Point Patterns",
+  "landslides",           "Spatial Logistic",
+  "moose_boundaries",     "Spatial Poisson/NBinom",
+  "oh_high",              "Geostatistics (Normal Errors)",
+  "ohio_cancer",          "Spatial Poisson/NBinom",
+  "ohio_cancer_point",    "Spatial Poisson/NBinom",
+  "ozone",                "Geostatistics (Normal Errors)",
+  "pa_turnout",           "Geostatistics (Normal Errors)",
+  "pa_turnout_poly",      "Autoregressive",
+  "pdx_oaks",             "Geostatistics (Normal Errors)",
+  "pdx_oaks_df",          "Geostatistics (Normal Errors)",
+  "pickleball",           "Spatial Logistic",
+  "pickleball_preds",     "Spatial Logistic Prediction",
+  "rails_trails",         "Geostatistics (Normal Errors)",
+  "soto_hits",            "Geostatistics (Normal Errors)",
+  "va_turnout",           "Geostatistics (Normal Errors)",
+  "va_turnout_poly",      "Autoregressive",
+  "wetlands",             "Geostatistics (Normal Errors)",
+  "wetlands_preds",       "Geostatistics (Prediction)",
+  "yamamoto_pitches",     "Point Patterns"
+)
+```
+
+```{r}
+final_df <- full_join(real_data, datasets, join_by(name == dataset)) |>
+  select(name, purpose, title) |>
+  rename(description = title)
+n <- nrow(final_df)
+breaks <- seq(7, n - 1, by = 7)
+knitr::kable(final_df, caption = "Datasets used in the Foundations of Spatial Statistics textbook (Higham and Dumelle, to be published August 2027).") |>
+  kableExtra::row_spec(breaks, extra_css = "border-bottom: 3px solid #999;")
+```

@@ -3,7 +3,7 @@
 \docType{data}
 \name{soto_hits}
 \alias{soto_hits}
-\title{Hitting data for Juan Soto in the 2025 season through May.}
+\title{Hitting Data for Juan Soto in the 2025 Season through May.}
 \format{
 A \code{tibble} object with 128 rows and 7 columns:
 

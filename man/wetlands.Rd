@@ -3,7 +3,7 @@
 \docType{data}
 \name{wetlands}
 \alias{wetlands}
-\title{National Wetland Condition Assessment (NWCA) 2016 Data}
+\title{National Wetland Condition Assessment (NWCA) 2016 Data.}
 \format{
 An \code{sf} object with 810 rows and 6 columns:
 

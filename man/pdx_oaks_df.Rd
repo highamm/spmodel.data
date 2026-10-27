@@ -3,7 +3,7 @@
 \docType{data}
 \name{pdx_oaks_df}
 \alias{pdx_oaks_df}
-\title{Oak Trees in Portland Parks}
+\title{Oak Trees in Portland Parks (tibble).}
 \format{
 A \code{tibble} object with coordinates \code{X} and \code{Y} on a  \code{NAD83 / Conus Albers} Projected coordinate reference system. Each point corresponds to an oak tree. The data has 680 rows, each corresponding to an oak tree and 13 columns:
 

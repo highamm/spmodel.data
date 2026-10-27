@@ -3,7 +3,7 @@
 \docType{data}
 \name{fish}
 \alias{fish}
-\title{Fish data.}
+\title{Fish Richness in Rivers and Streams in 2018 in U.S.}
 \format{
 An \code{sf} object with 104 rows and 3 columns:
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{in_high}
 \alias{in_high}
-\title{Data on high schools in Indiana (United States).}
+\title{Data on High Schools in Indiana (United States).}
 \format{
 A \code{tibble} object with 378 rows and 7 columns:
 

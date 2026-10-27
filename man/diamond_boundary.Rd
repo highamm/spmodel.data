@@ -3,13 +3,8 @@
 \docType{data}
 \name{diamond_boundary}
 \alias{diamond_boundary}
-\title{Diamond window}
+\title{Observation Window that is a Diamond Shape.}
 \format{
-An \code{sf} object with one row and one column:
-\itemize{
-  \item geometry: the boundary for the observation window.
-}
-
 An \code{sf} object with one row and one column:
 \itemize{
   \item geometry: the boundary for the observation window.
@@ -17,12 +12,8 @@ An \code{sf} object with one row and one column:
 }
 \usage{
 diamond_boundary
-
-diamond_boundary
 }
 \description{
-This data set contains the observation window on which the locations in the \code{diamond} data set was simulated on.
-
 This data set contains the observation window on which the locations in the \code{diamond} data set was simulated on.
 }
 \keyword{datasets}

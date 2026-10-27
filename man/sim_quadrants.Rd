@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_quadrants}
 \alias{sim_quadrants}
-\title{Assessing Stationarity}
+\title{Simualted Data for Assessing Stationarity.}
 \format{
 A \code{tibble} object with 1600 rows and 3 columns:
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{guerry_sf}
 \alias{guerry_sf}
-\title{Guerry Social Science Data in France}
+\title{Guerry Social Science Data in 1830's France.}
 \format{
 An \code{sf} object with an \code{NTF (Paris) / Lambert zone II} polygonal projection with 85 rows and 14 columns:
 
@@ -31,7 +31,7 @@ Data were modified from the \code{geodaData} \code{R} package. The original sour
 guerry_sf
 }
 \description{
-Department-level social science data in France in the 1830s, collected by Andre-Michel Guerry. Each row corresponds to a particular department (region) in the country of France.
+Department-level social science data in France in the 1830's, collected by Andre-Michel Guerry. Each row corresponds to a particular department (region) in the country of France.
 }
 \references{
 Guerry, A.-M. (1833). Essai sur la statistique morale de la France Paris: Crochard. English translation: Hugh P. Whitt and Victor W. Reinking, Lewiston, N.Y. : Edwin Mellen Press, 2002.

@@ -6,3 +6,7 @@ spbook.data.Rproj
 data-csvs/
 data-raw/
 spmodel.data.Rproj
+docs
+inst/doc
+/doc/
+/Meta/

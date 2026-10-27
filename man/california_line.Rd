@@ -3,7 +3,7 @@
 \docType{data}
 \name{california_line}
 \alias{california_line}
-\title{California State Border}
+\title{California State Border.}
 \format{
 An \code{sf} object with 1 rows and 4 columns:
 

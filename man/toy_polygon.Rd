@@ -3,7 +3,7 @@
 \docType{data}
 \name{toy_polygon}
 \alias{toy_polygon}
-\title{Toy polygons}
+\title{Toy Polygons for an Autoregressive Model Exercise.}
 \format{
 An \code{sf} object with 4 rows and two columns
 \itemize{

@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_mean_error_2}
 \alias{sim_mean_error_2}
-\title{Mean Error Structure}
+\title{Simulated Data for Mean Error Structure Illustration (p2).}
 \format{
 A \code{tibble} object with 400 rows and 4 columns:
 

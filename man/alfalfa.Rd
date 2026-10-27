@@ -3,7 +3,7 @@
 \docType{data}
 \name{alfalfa}
 \alias{alfalfa}
-\title{Alfalfa Yield}
+\title{Alfalfa Yield in Saudi Arabia.}
 \format{
 A \code{sf} object with 2677 rows and 2 columns:
 

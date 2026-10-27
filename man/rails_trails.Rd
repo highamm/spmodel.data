@@ -3,7 +3,7 @@
 \docType{data}
 \name{rails_trails}
 \alias{rails_trails}
-\title{Home price data in Northampton, Massachussetts, United States.}
+\title{Home Price Data in Northampton, Massachussetts, United States.}
 \format{
 An \code{sf} object with an \code{NAD83 / Conus Albers} point projection with 104 rows and 19 columns:
 

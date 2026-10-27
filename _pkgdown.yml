@@ -1,0 +1,5 @@
+url: https://highamm.github.io/spmodel.data/
+template:
+  bootstrap: 5
+  bootswatch: pulse
+

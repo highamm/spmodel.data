@@ -3,7 +3,7 @@
 \docType{data}
 \name{forest_wa}
 \alias{forest_wa}
-\title{Forests in Washington State}
+\title{Forests in Washington State.}
 \format{
 An \code{sf} object with \code{POINT} geometry on a \code{NAD83 / Conus Albers} Projected coordinate reference system. Each point corresponds to a location at which "on the ground" measurements were made to determine if the location was forested or not. The data has 707 rows, each corresponding to a location and 12 columns:
 

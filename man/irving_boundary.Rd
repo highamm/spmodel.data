@@ -3,7 +3,7 @@
 \docType{data}
 \name{irving_boundary}
 \alias{irving_boundary}
-\title{Polygonal boundary for Irving Park.}
+\title{Polygonal Boundary for Irving Park.}
 \format{
 An \code{sf} object with \code{NAD83 / Illinois East} projected CRS and polygonal geometry with 1 row and 2 columns:
 

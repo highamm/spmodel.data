@@ -3,7 +3,7 @@
 \docType{data}
 \name{ozone}
 \alias{ozone}
-\title{Ozone pollution in California, United States.}
+\title{Ozone Pollution in California, United States.}
 \format{
 A \code{tibble} object with 145 rows and 6 columns:
 

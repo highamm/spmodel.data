@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_poisson_neg}
 \alias{sim_poisson_neg}
-\title{Poisson Data Negative Slope}
+\title{Simulated Data to Help Interpret Poisson Regression Model (p2).}
 \format{
 A \code{tibble} object with 100 rows and 2 columns:
 

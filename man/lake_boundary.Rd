@@ -3,7 +3,7 @@
 \docType{data}
 \name{lake_boundary}
 \alias{lake_boundary}
-\title{Lakes State Border}
+\title{Lakes State Border.}
 \format{
 An \code{sf} object with 4 rows and 4 columns:
 

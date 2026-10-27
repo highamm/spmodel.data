@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_stationarity}
 \alias{sim_stationarity}
-\title{Stationarity Data}
+\title{Simulated Data for Stationarity Illustration.}
 \format{
 A \code{tibble} object with 200 rows and 4 columns:
 

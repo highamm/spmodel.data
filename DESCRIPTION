@@ -30,6 +30,10 @@ Imports:
     spmodel,
     spatstat.geom,
     spatstat.model
-URL: https://github.com/highamm/spmodel.data
+URL: https://highamm.github.io/spmodel.data/
 BugReports: https://github.com/highamm/spmodel.data/issues
 Config/roxygen2/version: 8.0.0
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

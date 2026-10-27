@@ -3,7 +3,7 @@
 \docType{data}
 \name{diamond}
 \alias{diamond}
-\title{Simulated locations}
+\title{Simulated Locations Corresponding to a Random Planar Point Pattern.}
 \format{
 An \code{sf} object with 130 rows and 3 columns:
 \itemize{

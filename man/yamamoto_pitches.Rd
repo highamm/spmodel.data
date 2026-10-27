@@ -3,7 +3,7 @@
 \docType{data}
 \name{yamamoto_pitches}
 \alias{yamamoto_pitches}
-\title{Pitching data for Yoshinobu Yamamoto in June of 2026 (June 1 through June 25).}
+\title{Pitching Data for Yoshinobu Yamamoto in June of 2026 (June 1 through June 25).}
 \format{
 A \code{tibble} object with 304 rows and 7 columns:
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{acapori}
 \alias{acapori}
-\title{Acapori trees in plot 6 of the Paracou research station in French Guiana.}
+\title{Acapori Trees in Plot 6 of the Paracou Research Station in French Guiana.}
 \format{
 An \code{tibble} object with 118 rows and 6 columns:
 

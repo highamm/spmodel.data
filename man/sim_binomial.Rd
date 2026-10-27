@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_binomial}
 \alias{sim_binomial}
-\title{Binomial Data}
+\title{Simulated Data to Fit a Spatial Binomial Model.}
 \format{
 A \code{tibble} object with 60 rows and 5 columns:
 

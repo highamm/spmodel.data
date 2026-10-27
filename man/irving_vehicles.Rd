@@ -3,7 +3,7 @@
 \docType{data}
 \name{irving_vehicles}
 \alias{irving_vehicles}
-\title{Point locations of abandoned vehicles.}
+\title{Point Locations of Abandoned Vehicles in Irving Park, Chicago.}
 \format{
 An \code{sf} object with \code{NAD83 / Illinois East} projected CRS with 97 rows and 9 columns:
 

@@ -3,7 +3,7 @@
 \docType{data}
 \name{anemones_sf}
 \alias{anemones_sf}
-\title{Anemone Locations}
+\title{Anemone Locations in France.}
 \format{
 A \code{sf} object with 231 rows and 2 columns:
 

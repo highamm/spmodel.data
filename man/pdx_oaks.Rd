@@ -3,7 +3,7 @@
 \docType{data}
 \name{pdx_oaks}
 \alias{pdx_oaks}
-\title{Oak Trees in Portland Parks}
+\title{Oak Trees in Portland Parks (sf).}
 \format{
 An \code{sf} object with \code{POINT} geometry on a \code{NAD83 / Conus Albers} Projected coordinate reference system. Each point corresponds to an oak tree. The data has 680 rows, each corresponding to an oak tree and 12 columns:
 

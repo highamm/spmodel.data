@@ -3,7 +3,7 @@
 \docType{data}
 \name{landslides}
 \alias{landslides}
-\title{Landslide data from Southern Ecuador.}
+\title{Landslide Data from Southern Ecuador.}
 \format{
 An \code{sf} object with an \code{WGS 84 / UTM zone 17S} point projection with 349 rows and 8 columns:
 

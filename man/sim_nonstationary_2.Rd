@@ -3,7 +3,7 @@
 \docType{data}
 \name{sim_nonstationary_2}
 \alias{sim_nonstationary_2}
-\title{Non-stationary Data}
+\title{Simulated Data to Show a Non-stationary Example (p2).}
 \format{
 A \code{tibble} object with 1000 rows and 3 columns:
 

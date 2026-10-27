@@ -34,10 +34,7 @@ library(tibble)
 library(dplyr)
 library(stringr)
 library(spmodel)
-## t
 ```
-
-t
 
 ```{r}
 items <- data(package = "spmodel.data")$results

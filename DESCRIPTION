@@ -25,6 +25,7 @@ Imports:
     tibble,
     ggplot2,
     dplyr,
+    kableExtra,
     tidyr,
     stringr,
     spatstat,

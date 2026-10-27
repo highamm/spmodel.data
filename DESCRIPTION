@@ -26,6 +26,7 @@ Imports:
     ggplot2,
     dplyr,
     tidyr,
+    stringr,
     spatstat,
     spmodel,
     spatstat.geom,

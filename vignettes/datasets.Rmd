@@ -30,7 +30,9 @@ knitr::opts_chunk$set(
 
 ```{r}
 library(spmodel.data)
-library(tidyverse)
+library(tibble)
+library(dplyr)
+library(stringr)
 library(spmodel)
 ```
 

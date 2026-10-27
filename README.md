@@ -1,4 +1,4 @@
-# Description
+# `spmodel.data`
 
 This package accompanies the textbook _Foundations of Spatial Statistics_ (working title) by Matt Higham and Michael Dumelle (Taylor & Francis CRC Press, August 2027).
 

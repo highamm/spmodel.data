@@ -3,7 +3,7 @@ pkgdown: 2.2.1
 pkgdown_sha: ~
 articles:
   datasets: datasets.html
-last_built: 2026-10-27T17:44Z
+last_built: 2026-10-27T19:13Z
 urls:
   reference: https://highamm.github.io/spmodel.data/reference
   article: https://highamm.github.io/spmodel.data/articles

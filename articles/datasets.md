@@ -21,8 +21,6 @@ modeling and prediction in R. *PLOS ONE* 18(3): e0282524.
 
   
 
-t
-
 | name | purpose | description |
 |:---|:---|:---|
 | acapori | Point Patterns | Acapori Trees in Plot 6 of the Paracou Research Station in French Guiana. |

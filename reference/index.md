@@ -1,0 +1,189 @@
+# Package index
+
+## All functions
+
+- [`acapori`](https://highamm.github.io/spmodel.data/reference/acapori.md)
+  : Acapori Trees in Plot 6 of the Paracou Research Station in French
+  Guiana.
+
+- [`alfalfa`](https://highamm.github.io/spmodel.data/reference/alfalfa.md)
+  : Alfalfa Yield in Saudi Arabia.
+
+- [`anemones_sf`](https://highamm.github.io/spmodel.data/reference/anemones_sf.md)
+  : Anemone Locations in France.
+
+- [`baltimore_housing`](https://highamm.github.io/spmodel.data/reference/baltimore_housing.md)
+  : Sale Prices for Homes in Baltimore, Maryland in 1978 (sf).
+
+- [`baltimore_housing_df`](https://highamm.github.io/spmodel.data/reference/baltimore_housing_df.md)
+  : Sale Prices for Homes in Baltimore, Maryland in 1978 (tibble).
+
+- [`california_line`](https://highamm.github.io/spmodel.data/reference/california_line.md)
+  : California State Border.
+
+- [`clement_hits`](https://highamm.github.io/spmodel.data/reference/clement_hits.md)
+  : Hitting Data for Ernie Clement in the 2025 Season through the End of
+  June.
+
+- [`clement_swings`](https://highamm.github.io/spmodel.data/reference/clement_swings.md)
+  : Swing Data for Ernie Clement in the 2025 Season through the End of
+  June.
+
+- [`diamond`](https://highamm.github.io/spmodel.data/reference/diamond.md)
+  : Simulated Locations Corresponding to a Random Planar Point Pattern.
+
+- [`diamond_boundary`](https://highamm.github.io/spmodel.data/reference/diamond_boundary.md)
+  : Observation Window that is a Diamond Shape.
+
+- [`exam_scores`](https://highamm.github.io/spmodel.data/reference/exam_scores.md)
+  : Economics Exam Scores.
+
+- [`fish`](https://highamm.github.io/spmodel.data/reference/fish.md) :
+  Fish Richness in Rivers and Streams in 2018 in U.S.
+
+- [`forest_wa`](https://highamm.github.io/spmodel.data/reference/forest_wa.md)
+  : Forests in Washington State.
+
+- [`full_turnout`](https://highamm.github.io/spmodel.data/reference/full_turnout.md)
+  : Voter Turnout in 2012 in the United States.
+
+- [`guerry_sf`](https://highamm.github.io/spmodel.data/reference/guerry_sf.md)
+  : Guerry Social Science Data in 1830's France.
+
+- [`in_high`](https://highamm.github.io/spmodel.data/reference/in_high.md)
+  : Data on High Schools in Indiana (United States).
+
+- [`irving_boundary`](https://highamm.github.io/spmodel.data/reference/irving_boundary.md)
+  : Polygonal Boundary for Irving Park.
+
+- [`irving_vehicles`](https://highamm.github.io/spmodel.data/reference/irving_vehicles.md)
+  : Point Locations of Abandoned Vehicles in Irving Park, Chicago.
+
+- [`kakaralli`](https://highamm.github.io/spmodel.data/reference/kakaralli.md)
+  : Kakaralli Trees in Plot 6 of the Paracou Research Station in French
+  Guiana.
+
+- [`lake_boundary`](https://highamm.github.io/spmodel.data/reference/lake_boundary.md)
+  : Lakes State Border.
+
+- [`landslides`](https://highamm.github.io/spmodel.data/reference/landslides.md)
+  : Landslide Data from Southern Ecuador.
+
+- [`make_cov_df()`](https://highamm.github.io/spmodel.data/reference/make_cov_df.md)
+  : Obtains a data frame that can be used to plot covariance as a
+  function of distance.
+
+- [`make_cov_plot()`](https://highamm.github.io/spmodel.data/reference/make_cov_plot.md)
+  : Obtains a plot of spatial covariance as a function of distance
+
+- [`moose_boundaries`](https://highamm.github.io/spmodel.data/reference/moose_boundaries.md)
+  : Moose Counts and Presence in Alaska, U.S.
+
+- [`oh_high`](https://highamm.github.io/spmodel.data/reference/oh_high.md)
+  : Data on High Schools in Ohio (United States).
+
+- [`ohio_cancer`](https://highamm.github.io/spmodel.data/reference/ohio_cancer.md)
+  : Lung Cancer Cases in Ohio Counties (polygon).
+
+- [`ohio_cancer_point`](https://highamm.github.io/spmodel.data/reference/ohio_cancer_point.md)
+  : Lung Cancer Cases in Ohio Counties (point).
+
+- [`ozone`](https://highamm.github.io/spmodel.data/reference/ozone.md) :
+  Ozone Pollution in California, United States.
+
+- [`pa_turnout`](https://highamm.github.io/spmodel.data/reference/pa_turnout.md)
+  : Voter Turnout in 2012 in Pennsylvania, United States.
+
+- [`pa_turnout_poly`](https://highamm.github.io/spmodel.data/reference/pa_turnout_poly.md)
+  : Voter Turnout in 2012 in Pennsylvania, United States.
+
+- [`pdx_oaks`](https://highamm.github.io/spmodel.data/reference/pdx_oaks.md)
+  : Oak Trees in Portland Parks (sf).
+
+- [`pdx_oaks_df`](https://highamm.github.io/spmodel.data/reference/pdx_oaks_df.md)
+  : Oak Trees in Portland Parks (tibble).
+
+- [`pickleball`](https://highamm.github.io/spmodel.data/reference/pickleball.md)
+  : Pickleball Shot Data for a Professional Women's Player.
+
+- [`pickleball_preds`](https://highamm.github.io/spmodel.data/reference/pickleball_preds.md)
+  : Pickleball Prediction Locations for a Professional Women's Player.
+
+- [`ppm_aug()`](https://highamm.github.io/spmodel.data/reference/ppm_aug.md)
+  :
+
+  Obtains a data frame that can be used to plot estimated intensity for
+  a model fit with `spatstat::ppm()`.
+
+- [`rails_trails`](https://highamm.github.io/spmodel.data/reference/rails_trails.md)
+  : Home Price Data in Northampton, Massachussetts, United States.
+
+- [`show_kwts()`](https://highamm.github.io/spmodel.data/reference/show_kwts.md)
+  : Plots kriging weights from a spatial model.
+
+- [`sim_binomial`](https://highamm.github.io/spmodel.data/reference/sim_binomial.md)
+  : Simulated Data to Fit a Spatial Binomial Model.
+
+- [`sim_leverage`](https://highamm.github.io/spmodel.data/reference/sim_leverage.md)
+  : Simulated Data for Spatial Leverage Illustration.
+
+- [`sim_linearity`](https://highamm.github.io/spmodel.data/reference/sim_linearity.md)
+  : Simulated Data for Linearity Illustration.
+
+- [`sim_mean_error`](https://highamm.github.io/spmodel.data/reference/sim_mean_error.md)
+  : Simulated Data for Mean Error Structure Illustration.
+
+- [`sim_mean_error_2`](https://highamm.github.io/spmodel.data/reference/sim_mean_error_2.md)
+  : Simulated Data for Mean Error Structure Illustration (p2).
+
+- [`sim_nonstationary`](https://highamm.github.io/spmodel.data/reference/sim_nonstationary.md)
+  : Simulated Data to Show a Non-stationary Example.
+
+- [`sim_nonstationary_2`](https://highamm.github.io/spmodel.data/reference/sim_nonstationary_2.md)
+  : Simulated Data to Show a Non-stationary Example (p2).
+
+- [`sim_normality`](https://highamm.github.io/spmodel.data/reference/sim_normality.md)
+  : Simulated Data for Normality Condition Illustration.
+
+- [`sim_outlier`](https://highamm.github.io/spmodel.data/reference/sim_outlier.md)
+  : Simulated Data for Spatial Outliers Illustration.
+
+- [`sim_poisson_neg`](https://highamm.github.io/spmodel.data/reference/sim_poisson_neg.md)
+  : Simulated Data to Help Interpret Poisson Regression Model (p2).
+
+- [`sim_poisson_pos`](https://highamm.github.io/spmodel.data/reference/sim_poisson_pos.md)
+  : Simulated Data to Help Interpret Poisson Regression Model.
+
+- [`sim_preferential`](https://highamm.github.io/spmodel.data/reference/sim_preferential.md)
+  : Simulated Data for Preferential Sampling Illustration.
+
+- [`sim_quadrants`](https://highamm.github.io/spmodel.data/reference/sim_quadrants.md)
+  : Simualted Data for Assessing Stationarity.
+
+- [`sim_r2`](https://highamm.github.io/spmodel.data/reference/sim_r2.md)
+  : Simulation to Show Flaw with R-Squared.
+
+- [`sim_stationarity`](https://highamm.github.io/spmodel.data/reference/sim_stationarity.md)
+  : Simulated Data for Stationarity Illustration.
+
+- [`soto_hits`](https://highamm.github.io/spmodel.data/reference/soto_hits.md)
+  : Hitting Data for Juan Soto in the 2025 Season through May.
+
+- [`toy_polygon`](https://highamm.github.io/spmodel.data/reference/toy_polygon.md)
+  : Toy Polygons for an Autoregressive Model Exercise.
+
+- [`va_turnout`](https://highamm.github.io/spmodel.data/reference/va_turnout.md)
+  : Voter Turnout in 2012 in Virginia, United States.
+
+- [`va_turnout_poly`](https://highamm.github.io/spmodel.data/reference/va_turnout_poly.md)
+  : Voter Turnout in 2012 in Virginia, United States.
+
+- [`wetlands`](https://highamm.github.io/spmodel.data/reference/wetlands.md)
+  : National Wetland Condition Assessment (NWCA) 2016 Data.
+
+- [`wetlands_preds`](https://highamm.github.io/spmodel.data/reference/wetlands_preds.md)
+  : National Wetland Condition Assessment (NWCA) 2016 Prediction Data.
+
+- [`yamamoto_pitches`](https://highamm.github.io/spmodel.data/reference/yamamoto_pitches.md)
+  : Pitching Data for Yoshinobu Yamamoto in June of 2026 (June 1 through
+  June 25).

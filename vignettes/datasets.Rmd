@@ -36,6 +36,8 @@ library(stringr)
 library(spmodel)
 ```
 
+t
+
 ```{r}
 items <- data(package = "spmodel.data")$results
 data_sets <- tibble(name = items[, c("Item")],

@@ -40,11 +40,13 @@ library(spmodel)
 items <- data(package = "spmodel.data")$results
 data_sets <- tibble(name = items[, c("Item")],
                     title = items[ ,c("Title")])
-simulated_data_sets <- data_sets |> filter(str_detect(name, "sim_") | name == "diamond")
+simulated_data_sets <- data_sets |>
+  dplyr::filter(str_detect(name, "sim_") | name == "diamond")
 
-borders <- data_sets |> filter(name %in% c("california_line", "diamond_boundary",
-                                           "irving_boundary", "lake_boundary",
-                                           "toy_polygon"))
+borders <- data_sets |>
+  dplyr::filter(name %in% c("california_line", "diamond_boundary",
+                            "irving_boundary", "lake_boundary",
+                            "toy_polygon"))
 
 real_data <- data_sets |> anti_join(simulated_data_sets) |>
   anti_join(borders) 

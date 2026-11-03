@@ -74,10 +74,11 @@ make_cov_plot <- function(p_sill = 1, nugget = 0, range = 0.5, max_dist = 2,
   cov_df <- make_cov_df(p_sill = p_sill, nugget = nugget, range = range,
                         max_dist = max_dist, spcov_type = spcov_type)
 
-  cov_plot <- ggplot(data = cov_df |> filter(distance_grid != 0), aes(x = distance_grid,
+  cov_plot <- ggplot(data = cov_df |> dplyr::filter(distance_grid != 0),
+                     aes(x = distance_grid,
                                                                y = cov_full)) +
     geom_line() +
-    geom_point(data = cov_df |> filter(distance_grid == 0)) +
+    geom_point(data = cov_df |> dplyr::filter(distance_grid == 0)) +
     labs(x = "Distance",
          y = "Covariance") +
     lims(y = c(0, NA)) +

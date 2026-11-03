@@ -69,6 +69,8 @@ make_cov_df <- function(p_sill = 1, nugget = 0, range = 0.5, max_dist = 2,
 make_cov_plot <- function(p_sill = 1, nugget = 0, range = 0.5, max_dist = 2,
                           spcov_type = "exponential") {
 
+  distance_grid <- seq(0.00, max_dist, length.out = 500)
+
   cov_df <- make_cov_df(p_sill = p_sill, nugget = nugget, range = range,
                         max_dist = max_dist, spcov_type = spcov_type)
 

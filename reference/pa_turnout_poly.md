@@ -62,6 +62,12 @@ An `sf` object with an `NAD83 / Conus Albers` polygonal projection with
 - geometry: information giving the polygonal shape of the county or city
   district.
 
+- response_car: a simulated response variable for a CAR model with de =
+  100 and range = 0.99.
+
+- response_exp: a simulated response variable for an exponential model
+  with de = 100, ie = 0, and range = 400000.
+
 ## Source
 
 Data were obtained at

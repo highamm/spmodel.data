@@ -49,7 +49,13 @@ make_cov_plot(
 
 ``` r
 make_cov_plot(p_sill = 3, nugget = 2, range = 1, max_dist = 4, spcov_type = "spherical")
-#> Error in make_cov_plot(p_sill = 3, nugget = 2, range = 1, max_dist = 4,     spcov_type = "spherical"): object 'distance_grid' not found
+#> Error in fortify(data, ...): `data` must be a <data.frame>, or an object coercible by `fortify()`, or
+#> a valid <data.frame>-like object coercible by `as.data.frame()`.
+#> Caused by error in `check_data_frame_like()`:
+#> ! `colnames(data)` must return a <character> of length `ncol(data)`.
 make_cov_plot(p_sill = 100, nugget = 200, range = 5000, max_dist = 10000, spcov_type = "gaussian")
-#> Error in make_cov_plot(p_sill = 100, nugget = 200, range = 5000, max_dist = 10000,     spcov_type = "gaussian"): object 'distance_grid' not found
+#> Error in fortify(data, ...): `data` must be a <data.frame>, or an object coercible by `fortify()`, or
+#> a valid <data.frame>-like object coercible by `as.data.frame()`.
+#> Caused by error in `check_data_frame_like()`:
+#> ! `colnames(data)` must return a <character> of length `ncol(data)`.
 ```

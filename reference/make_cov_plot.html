@@ -83,15 +83,9 @@ a plot that has covariance on the y-axis and distance on the x-axis.</p>
     <div class="section level2">
     <h2 id="ref-examples">Examples<a class="anchor" aria-label="anchor" href="#ref-examples"></a></h2>
     <div class="sourceCode"><pre class="sourceCode r"><code><span class="r-in"><span><span class="fu">make_cov_plot</span><span class="op">(</span>p_sill <span class="op">=</span> <span class="fl">3</span>, nugget <span class="op">=</span> <span class="fl">2</span>, range <span class="op">=</span> <span class="fl">1</span>, max_dist <span class="op">=</span> <span class="fl">4</span>, spcov_type <span class="op">=</span> <span class="st">"spherical"</span><span class="op">)</span></span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in fortify(data, ...):</span> `data` must be a <span style="color: #0000BB;">&lt;data.frame&gt;</span>, or an object coercible by `fortify()`, or</span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> a valid <span style="color: #0000BB;">&lt;data.frame&gt;</span>-like object coercible by `as.data.frame()`.</span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">Caused by error in `check_data_frame_like()`:</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span style="color: #BBBB00;">!</span> `colnames(data)` must return a <span style="color: #0000BB;">&lt;character&gt;</span> of length `ncol(data)`.</span>
+<span class="r-plt img"><img src="make_cov_plot-1.png" alt="" width="700" height="433"></span>
 <span class="r-in"><span><span class="fu">make_cov_plot</span><span class="op">(</span>p_sill <span class="op">=</span> <span class="fl">100</span>, nugget <span class="op">=</span> <span class="fl">200</span>, range <span class="op">=</span> <span class="fl">5000</span>, max_dist <span class="op">=</span> <span class="fl">10000</span>, spcov_type <span class="op">=</span> <span class="st">"gaussian"</span><span class="op">)</span></span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span class="error">Error in fortify(data, ...):</span> `data` must be a <span style="color: #0000BB;">&lt;data.frame&gt;</span>, or an object coercible by `fortify()`, or</span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> a valid <span style="color: #0000BB;">&lt;data.frame&gt;</span>-like object coercible by `as.data.frame()`.</span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span style="font-weight: bold;">Caused by error in `check_data_frame_like()`:</span></span>
-<span class="r-err co"><span class="r-pr">#&gt;</span> <span style="color: #BBBB00;">!</span> `colnames(data)` must return a <span style="color: #0000BB;">&lt;character&gt;</span> of length `ncol(data)`.</span>
+<span class="r-plt img"><img src="make_cov_plot-2.png" alt="" width="700" height="433"></span>
 </code></pre></div>
     </div>
   </main><aside class="col-md-3"><nav id="toc" aria-label="Table of contents"><h2>On this page</h2>

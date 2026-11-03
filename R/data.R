@@ -394,6 +394,8 @@
 #'   \item white_pct: the percentage of the population that is white (in percentage points).
 #'   \item rural_pct: the percentage of the population that lives in a rural area (in percentage points).
 #'   \item geometry: information giving the polygonal shape of the county or city district.
+#'   \item response_car: a simulated response variable for a CAR model with de = 100 and range = 0.99.
+#'   \item response_exp: a simulated response variable for an exponential model with de = 100, ie = 0, and range = 400000.
 #'   }
 #' @source Data were obtained at \url{https://github.com/MEDSL/2018-elections-unoffical/blob/master/election-context-2018.csv} from the MIT Election Data and Science Lab and were subsequently supplemented with data from the United States census using the \code{tidycensus} \code{R} package.
 "pa_turnout_poly"

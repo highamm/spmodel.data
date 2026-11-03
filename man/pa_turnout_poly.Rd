@@ -20,6 +20,8 @@ An \code{sf} object with an \code{NAD83 / Conus Albers} polygonal projection wit
   \item white_pct: the percentage of the population that is white (in percentage points).
   \item rural_pct: the percentage of the population that lives in a rural area (in percentage points).
   \item geometry: information giving the polygonal shape of the county or city district.
+  \item response_car: a simulated response variable for a CAR model with de = 100 and range = 0.99.
+  \item response_exp: a simulated response variable for an exponential model with de = 100, ie = 0, and range = 400000.
   }
 }
 \source{
